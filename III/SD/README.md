@@ -1,4 +1,4 @@
-### Sistemas Distríbuidos
+### Distributed Systems
 
 Developed a program similar to the app [Stayway Covid](https://stayawaycovid.pt/?cn-reloaded=1) using Java.  
 
