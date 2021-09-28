@@ -6,7 +6,7 @@
 - The second project consisted in developing a compiler of an imperative language, using context-independent and translator grammars
   - Second Project: 16
   
-Both projects were developed in python. 
+  Both projects were developed in python. 
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
