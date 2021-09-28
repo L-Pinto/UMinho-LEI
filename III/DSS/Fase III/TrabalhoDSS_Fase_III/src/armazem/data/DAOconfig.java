@@ -8,7 +8,7 @@ package armazem.data;
 
 public class DAOconfig {
     static final String USERNAME = "root";                       // Actualizar
-    static final String PASSWORD = "1234";                    // Actualizar
+    static final String PASSWORD = //INSERT PASSWORD;                    // Actualizar
     private static final String DATABASE = "armazem";          // Actualizar
     private static final String DRIVER = "jdbc:mysql";        // Usar para MySQL
     static final String URL = DRIVER+"://localhost:3306/"+DATABASE;
