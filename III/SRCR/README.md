@@ -2,7 +2,7 @@
 
   - Individual Project: 18
   - Group Project: 18
-  Both projects were developed in Prolog.
+Both projects were developed in Prolog.
 
 #### :handshake: Contributors - Group Project 
 - [Luís Pinto](https://github.com/L-Pinto)
