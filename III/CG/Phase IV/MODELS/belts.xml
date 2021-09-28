@@ -1,0 +1,16 @@
+<scene>
+    <group>
+        <rotate time="60" x="0" y="1" z="0" />
+        <color x="1" y="1" z="1"/>
+        <models>
+            <model file="points.3d"/>
+        </models>
+    </group>
+	<group>
+        <rotate time="60" x="0" y="1" z="0" />
+        <color x="1" y="1" z="1"/>
+        <models>
+            <model file="pointsKuiper.3d"/>
+        </models>
+    </group>
+</scene>

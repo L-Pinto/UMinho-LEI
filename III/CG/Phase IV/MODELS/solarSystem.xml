@@ -1,0 +1,273 @@
+<scene>
+	<lights>
+		<light type="DIRECTIONAL" posX="2" posY="2" posZ="2"/>
+    </lights>
+    <group>
+        <rotate time="15" x="0" y="1" z="0" />
+        <models>
+            <model file="sphere.3d" texture="sol.jpg" emissR="1" emissG="1" emissB="1"/>
+        </models>
+    </group>
+    <group> 
+        <rotate time="2" x="0" y="1" z="0" />
+        <translate x="1.5" y="0" z="0"/>  
+        <group>
+            <rotate time="30" x="0" y="1" z="0" />
+            <scale x="0.11" y="0.11" z="0.11"/>
+            <models>
+                <model file="sphere.3d" texture="mercurio.jpg" specR="1" specG="1" specB="1"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <rotate time="6" x="0" y="-1" z="0" />
+        <translate x="2.1" y="0" z="0"/>
+        <group>
+            <rotate time="80" x="0" y="-0.9" z="0" />
+            <scale x="0.18" y="0.18" z="0.18"/>
+            <models>
+                <model file="sphere.3d" texture="venus.jpg" specR="1" specG="1" specB="1"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <rotate time="12" x="0" y="1" z="0" />
+        <translate x="3.1" y="0" z="0"/>
+        <group>
+            <rotate time="10" x="0" y="0.7" z="0" />
+            <scale x="0.19" y="0.19" z="0.19"/>
+            <models>
+                <model file="sphere.3d" texture="terra.jpg" specR="1" specG="1" specB="1"/>
+            </models>
+            <group>
+                <rotate time="16" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.5" z="0"/>
+                <group>
+                    <rotate time="9" x="0" y="1" z="0" />
+                    <scale x="0.33" y="0.33" z="0.33"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="18" x="0" y="1" z="0" />
+        <translate x="4.1" y="0" z="0"/>
+        <group>
+            <rotate time="10" x="0" y="0.7" z="0" />
+            <scale x="0.13" y="0.13" z="0.13"/>
+            <models>
+                <model file="sphere.3d" texture="marte.jpg" specR="1" specG="1" specB="1"/>
+            </models>
+		    <group>
+                <rotate time="15" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.5" z="0"/>
+                <group>
+                    <rotate time="11" x="0" y="1" z="0" />
+                    <scale x="0.33" y="0.33" z="0.33"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="19" x="1" y="1" z="0" />
+                <translate x="1.5" y="-0.5" z="0"/>
+                <group>
+                    <rotate time="11" x="0" y="1" z="0" />
+                    <scale x="0.33" y="0.33" z="0.33"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="60" x="0" y="1" z="0" />
+        <models>
+            <model file="points.3d" />
+        </models>
+    </group>
+    <group>
+        <rotate time="36" x="0" y="1" z="0" />
+        <translate x="6.5" y="0" z="0"/>
+        <group>
+            <rotate time="6" x="0" y="1" z="0" />
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <models>
+                <model file="sphere.3d" texture="jupiter.jpg" specR="1" specG="1" specB="1"/>
+            </models>
+		    <group>
+                <rotate time="22" x="0" y="0" z="1" />
+                <translate x="1.5" y="0.5" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.15" y="0.15" z="0.15"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="21" x="1" y="0" z="0" />
+                <translate x="1.5" y="-0.2" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.14" y="0.14" z="0.14"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="18" x="1" y="1" z="0" />
+                <translate x="1.5" y="-0.5" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.16" y="0.16" z="0.16"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="20" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.3" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.15" y="0.15" z="0.15"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="48" x="0" y="1" z="0" />
+        <translate x="8" y="0" z="0"/>
+        <group>
+            <rotate time="5" x="0" y="1" z="0" />
+            <scale x="0.45" y="0.45" z="0.45"/>
+            <models>
+                <model file="sphere.3d" texture="saturno.jpg" specR="1" specG="1" specB="1"/>
+            </models>                   
+            <group>
+                <scale x="0.48" y="0.48" z="0.48"/>
+                <rotate z="0.7" y="0" x="1" angle="30"/>
+                <models>
+                    <model file="anelSaturno.3d" texture="anel.png"/>
+                </models>
+            </group>            
+		    <group>
+                <rotate time="25" x="0" y="1" z="1" />
+                <translate x="1.5" y="-0.5" z="0"/>
+                <group>
+                    <rotate time="7" x="0" y="1" z="0" />
+                    <scale x="0.18" y="0.18" z="0.18"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="22" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.3" z="0"/>
+                <group>
+                    <rotate time="7" x="0" y="1" z="0" />
+                    <scale x="0.19" y="0.19" z="0.19"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="18" x="1" y="1" z="0" />
+                <translate x="1.5" y="-0.5" z="0"/>
+                <group>
+                    <rotate time="7" x="0" y="1" z="0" />
+                    <scale x="0.17" y="0.17" z="0.17"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="60" x="0" y="-1" z="0" />
+        <translate x="9.5" y="0" z="0"/>
+        <group>
+            <rotate time="7" x="0" y="0" z="1" />
+            <scale x="0.38" y="0.38" z="0.38"/>
+            <models>
+                <model file="sphere.3d" texture="urano.jpg" specR="1" specG="1" specB="1"/>
+            </models>
+		    <group>
+                <rotate time="21" x="0" y="1" z="1" />
+                <translate x="1.5" y="0.2" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.19" y="0.19" z="0.19"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="20" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.4" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.20" y="0.20" z="0.20"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="78" x="0" y="1" z="0" />
+        <translate x="10.75" y="0" z="0"/>
+        <group>
+            <rotate time="6" x="0" y="1" z="0" />
+            <scale x="0.37" y="0.37" z="0.37"/>
+            <models>
+                <model file="sphere.3d" texture="neptuno.jpg" specR="1" specG="1" specB="1"/>
+            </models>
+		    <group>
+                <rotate time="20" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.5" z="0"/>
+                <group>
+                    <rotate time="4" x="0" y="1" z="0" />
+                    <scale x="0.21" y="0.21" z="0.21"/>
+                    <models>
+                        <model file="sphere.3d" texture="lua.jpg"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="60" x="0" y="1" z="0" />
+        <models>
+            <model file="pointsKuiper.3d" />
+        </models>
+    </group>
+    <group>
+    	<translate time="15">
+			<point x="-1" y="0" z="-4"/>
+			<point x="-5" y="0" z="4"/> 
+			<point x="5" y="5" z="4"/>
+			<point x="5" y="0" z="0"/>			
+		</translate>
+        <scale x="0.1" y="0.1" z="0.1"/>
+        <models>
+			<model file="comet.3d" texture="lua.jpg"/>
+		</models>
+	</group>
+</scene>
