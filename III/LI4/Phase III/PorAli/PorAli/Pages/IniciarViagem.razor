@@ -1,0 +1,419 @@
+﻿@page "/IniciarViagem"
+@inject IJSRuntime JSRuntime
+
+@using PorAli.Data
+@using PorAli.Pages.Loads
+@using System.Threading
+@using DataAccessPorali;
+@inject Utilizador user
+@using Microsoft.Extensions.Configuration
+
+@inject IToastService toastService
+@inject ISqlDataAccess _data
+@inject IConfiguration _config
+@inject IModalService Modal
+
+
+<head onload="window.onload">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            font-family: "Comic Sans MS", "Comic Sans";
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+
+        .login {
+            font-family: "Comic Sans MS", "Comic Sans";
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .email {
+            margin-left: 30px;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+
+        .entrar {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        a {
+            color: black;
+        }
+
+        centro {
+            text-align: center;
+        }
+
+        form {
+            display: inline-block;
+        }
+
+        .viagem {
+            font-family: "Comic Sans MS", "Comic Sans";
+            border-radius: 6px;
+            background-color: ghostwhite;
+            padding: 10px 50px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .child {
+            width: 150px;
+            height: 150px;
+            /* Center vertically and horizontally */
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            margin: 0 0 0 -25px; /* apply negative top and left margins to truly center the element */
+        }
+
+        .warning {
+            color: #5396da;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .info {
+            font-family: "Comic Sans MS", "Comic Sans";
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            position: absolute;
+            margin: 0 0 0 -25px;
+            left: 78%;
+            top: 40%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="Conta" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Home"><i class="fa fa-home"></i></a>
+            <a href="HistoricoGratis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Viagens Grátis"><i class="fa fa-ticket"></i></a>
+            <a href="HistoricoViagens" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Historico"><i class="fa fa-history"></i></a>
+            <a href="Logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Logout"><i class="fa fa-sign-out"></i></a>
+            <a href="AvaliarApp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Avaliar"><i class="fa fa-star"></i></a>
+            <button @onclick="@(() => Modal.Show<ListaNotificacoes>("As Minhas Notificações"))" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Notifications"><i class="fa fa-bell"></i></button>
+            <a href="ConfiguracaoConta" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+                Bem Vindo/a @user.nome!
+                <img src="/images/user.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+            </a>
+        </div>
+    </div>
+
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+
+    @if (v_aux == null)
+    {
+        <h2>Iniciar Viagem</h2>
+        <EditForm Model="Percurso" OnValidSubmit=@Handler>
+            <div float="left" class="form-group">
+                <label for="Origem">Origem:</label>
+                <InputText @bind-Value="Percurso.local_inicio" class="form-control" id="start" />
+            </div>
+            <div class="form-group">
+                <label for="Destino">Destino:</label>
+                <InputText @bind-Value="Percurso.local_destino" class="form-control" id="end" />
+            </div>
+            <button type="submit" onclick="myFunction(viagens.Count)" class="btn btn-primary" value="Planear Viagem">Planear Viagem</button>
+        </EditForm>
+
+        <div id="map"></div>
+        <div class="warning" id="warnings-panel"></div>
+
+    }
+    else
+    {
+        int penultima = 0, ultima = 0, inicio = 0;
+        foreach (ConfigNotificacoes cn in user.getConfigNotificacoes())
+        {
+            if (cn.nome == "Proxima Paragem" && cn.ativada) penultima = 1;
+            if (cn.nome == "Fim de Viagem" && cn.ativada) ultima = 1;
+            if (cn.nome == "Inicio de Viagem" && cn.ativada) inicio = 1;
+        }
+
+        if (inicio == 1)
+        {
+
+            new Thread(() =>
+            {
+                foreach (Percurso p in v_aux.percursos)
+                {
+                    DateTime h_inicio = Convert.ToDateTime(p.hora_inicio); //v_aux.hora_inicio
+
+            double min = h_inicio.Subtract(DateTime.Now).TotalMinutes;
+
+                    if (min > 0)
+                    {
+
+                        int mili = (int)min * 60 * 1000;
+
+                        Thread.Sleep(mili);
+
+                        toastService.ShowInfo("A viagem será iniciada!");
+                        Notificacao not = new Notificacao("Inicio de Viagem", "A viagem será iniciada!");
+                        user.listaNotificacoes.Add(not);
+                    }
+                }
+            }).Start();
+        }
+
+        if (penultima == 1)
+        {
+            new Thread(() =>
+            {
+                foreach (Percurso p in v_aux.percursos)
+                {
+                    if (!string.IsNullOrEmpty(p.hora_penultima))
+                    {
+                        DateTime h_penultima = Convert.ToDateTime(p.hora_penultima); //p.hora_penultima
+
+                double sec = h_penultima.Subtract(DateTime.Now).TotalSeconds;
+
+                        if (sec > 0)
+                        {
+                            int mili = (int)sec * 1000;
+
+                            Thread.Sleep(mili);
+
+                            toastService.ShowInfo("Chegou à penultima paragem! Deverá sair na próxima");
+                            Notificacao not = new Notificacao("Proxima Paragem", "Chegou à penultima paragem! Deverá sair na próxima");
+                            user.listaNotificacoes.Add(not);
+                        }
+                    }
+                }
+            }).Start();
+        }
+
+        if (ultima == 1)
+        {
+
+            new Thread(() =>
+            {
+                foreach (Percurso p in v_aux.percursos)
+                {
+                    DateTime h_ultima = Convert.ToDateTime(p.hora_fim);
+
+                    double sec = h_ultima.Subtract(DateTime.Now).TotalSeconds;
+
+                    if (sec > 0)
+                    {
+                        int mili = (int)sec * 1000;
+
+                        Thread.Sleep(mili);
+
+                        toastService.ShowInfo("Chegou à última paragem!");
+                        Notificacao not = new Notificacao("Fim de Viagem", "Chegou à última paragem!");
+                        user.listaNotificacoes.Add(not);
+                    }
+                }
+
+            }).Start();
+        }
+
+        <h2 class="font"> Viagem </h2>
+        <EditForm Model="Percurso" OnValidSubmit=@Handler>
+            <div float="left" class="form-group">
+                <label for="Origem">Origem:</label>
+                <InputText @bind-Value="Percurso.local_inicio" class="form-control" id="start" />
+            </div>
+            <div class="form-group">
+                <label for="Destino">Destino:</label>
+                <InputText @bind-Value="Percurso.local_destino" class="form-control" id="end" />
+            </div>
+            <button type="submit" onclick="myFunction(viagens.Count)" class="btn btn-primary" value="Planear Viagem">Planear Viagem</button>
+        </EditForm>
+
+
+        <div class="row">
+            <div class="column">
+                <div left="float" class="child" id="map" style="height:500px;width:1000px;"></div>
+                <div class="warning" id="warnings-panel"></div>
+            </div>
+            <div class="info">
+                <div class="column">
+                    <div class="w3-twothird">
+                        <table class="w3-table w3-striped w3-white">
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa fa-eur" aria-hidden="true"></i></td>
+                                    <td>Preço:</td>
+                                    <td><i>@v_aux.preco</i></td>
+                                </tr>
+
+                                @foreach (Percurso p in v_aux.percursos)
+                                {
+                                    <tr>
+                                        <td><i class="fa fa-bus w3-text-blue" aria-hidden="true"></i></td>
+                                        <td>Autocarro: </td>
+                                        <td><i>@p.nrautocarro</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-hand-paper-o" aria-hidden="true"></i></td>
+                                        <td>Número paragens: </td>
+                                        <td><i>@p.nrParagens</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                                        <td>Paragem Origem: </td>
+                                        <td><i>@p.local_inicio</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                                        <td>Paragem Destino: </td>
+                                        <td><i>@p.local_destino</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-clock-o" aria-hidden="true"></i></td>
+                                        <td>Hora Inicio: </td>
+                                        <td><i>@p.hora_inicio</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fa fa-clock-o" aria-hidden="true"></i></td>
+                                        <td>Hora Fim: </td>
+                                        <td><i>@p.hora_fim</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</body>
+
+
+
+@code {
+
+    ProgressEventArgs time;
+
+    bool result = true;
+    private PorAli porali = new PorAli();
+    LoadViagem Percurso = new LoadViagem();
+    private string res = "a calcular percurso";
+    private List<Viagem> viagens = null;
+    private string bus;
+    private int val = -1;
+
+    public Viagem v_aux = null;
+
+    private async Task InsertViagem()
+    {
+        string sql = "INSERT INTO viagem (IDViagem, Hora_inicio,Hora_Fim,Local_chegada,Local_partida,Preco) VALUES (@IDViagem, @Hora_inicio,@Hora_Fim,@Local_chegada,@Local_partida,@Preco);";
+        await _data.SaveData(sql, new
+        {
+            IDViagem = v_aux.IDViagem,
+            Hora_inicio = v_aux.hora_inicio,
+            Hora_Fim = v_aux.hora_Fim,
+            Local_chegada = v_aux.local_chegada,
+            Local_partida = v_aux.local_partida,
+            Preco = v_aux.preco
+        },
+            _config.GetConnectionString("default"));
+
+        string sqlEfetua = "INSERT INTO efetua (UserEmail, ViagemID) VALUES (@UserEmail, @ViagemID);";
+        await _data.SaveData(sqlEfetua, new { UserEmail = user.email, ViagemID = v_aux.IDViagem }, _config.GetConnectionString("default"));
+
+    }
+
+    public void Handler()
+    {
+        viagens = porali.iniciaViagem(Percurso.local_inicio, Percurso.local_destino, DateTime.Now);
+    }
+
+    public void SaveViagem(Viagem v1)
+    {
+        v_aux = v1; //v_aux é a viagem escolhida pelo utilizador
+
+        v_aux.calculaPenultima();
+
+        porali.calculaHorarioPenultima(v_aux);
+
+        toastService.ShowSuccess("Utilizador Selecionou Viagem");
+        val = v_aux.num;
+
+        // add viagem na BD
+        InsertViagem();
+        // add viagem ao utilizador
+        user.mapviagens.Add(v_aux.IDViagem, v_aux);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initMap", val);
+            // StateHasChanged();
+        }
+        else
+        {
+            await JSRuntime.InvokeVoidAsync("initMap", val);
+        }
+
+    }
+
+}
+
+@if (viagens != null && v_aux == null)
+{
+    <p></p>
+    foreach (Viagem viagem in viagens)
+    {
+        <p> <a type="submit" class="viagem" id="viagem" @onclick="() => SaveViagem(viagem)">@viagem.showViagem()</a> </p>
+    }
+    // Acho que aqui é que mandamos notificaçao para user de iniciar viagem
+
+    //user.addNotificacao("Utilizador Selecionou Viagem");
+
+
+}

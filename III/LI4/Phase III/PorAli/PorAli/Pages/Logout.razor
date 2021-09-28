@@ -1,0 +1,128 @@
+﻿@page "/Logout"
+
+@using PorAli.Data
+@using DataAccessPorali;
+@inject Utilizador user
+@using Microsoft.Extensions.Configuration
+@inject NavigationManager uriHelper
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+        .viagem {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 115px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .consulta {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 88px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 25px;
+        }
+
+        .ajuda {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 167px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        .configuracoes {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 120px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        a {
+            color: black;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>PORALI</a>
+            <a href="HistoricoGratis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Viagens Grátis"><i class="fa fa-ticket"></i></a>
+            <a href="HistoricoViagens" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Historico"><i class="fa fa-history"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Logout"><i class="fa fa-sign-out"></i></a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>
+                <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+                    <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+                    <a href="#" class="w3-bar-item w3-button">John Doe posted on your wall</a>
+                    <a href="#" class="w3-bar-item w3-button">Jane likes your post</a>
+                </div>
+            </div>
+            <a href="ConfiguracaoConta" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+                Bem Vindo/a @user.nome!
+                <img src="/images/user.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+            </a>
+        </div>
+    </div>
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+</body>
+</html>
+
+
+@code {
+
+    bool res = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        user.destroyUser();
+        uriHelper.NavigateTo("#");
+
+    }
+
+}

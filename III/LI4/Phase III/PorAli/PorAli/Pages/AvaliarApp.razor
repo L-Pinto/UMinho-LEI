@@ -1,0 +1,229 @@
+﻿@page "/AvaliarApp"
+
+@using PorAli.Data
+@using PorAli.Pages.Loads
+@using DataAccessPorali
+@using Microsoft.Extensions.Configuration
+@inject Utilizador user
+
+@inject ISqlDataAccess _data
+@inject IConfiguration _config
+@inject IModalService Modal
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+        .viagem {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 115px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .consulta {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 88px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 25px;
+        }
+
+        .ajuda {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 167px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        .configuracoes {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 120px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        a {
+            color: black;
+        }
+
+        .child {
+            /* Center vertically and horizontally */
+            position: absolute;
+            top: 150%;
+            left: 42%;
+            margin: 0 0 0 0; /* apply negative top and left margins to truly center the element */
+        }
+
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+
+        form {
+            width: 750px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+            form p,
+            form input[type="submit"] {
+                text-align: center;
+                font-size: 20px;
+            }
+
+        #wrapper form input[type="submit"] {
+            border: 1px solid #d9d9d9;
+            background-color: #efefef;
+        }
+
+        input[type="radio"] {
+            display: none;
+            font-size: 200px;
+        }
+
+        label {
+            color: grey;
+        }
+
+        .clasificacion {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            font-size: 100px
+        }
+
+        label:hover,
+        label:hover ~ label {
+            color: orange;
+        }
+
+        input[type="radio"]:checked ~ label {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="Conta" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Home"><i class="fa fa-home"></i></a>
+            <a href="HistoricoGratis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Viagens Grátis"><i class="fa fa-ticket"></i></a>
+            <a href="HistoricoViagens" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Historico"><i class="fa fa-history"></i></a>
+            <a href="Logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Logout"><i class="fa fa-sign-out"></i></a>
+            <a href="AvaliarApp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Avaliar"><i class="fa fa-star"></i></a>
+            <button @onclick="@(() => Modal.Show<ListaNotificacoes>("As Minhas Notificações"))" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Notifications"><i class="fa fa-bell"></i></button>
+            <a href="ConfiguracaoConta" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+                Bem Vindo/a @user.nome!
+                <img src="/images/user.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+            </a>
+        </div>
+    </div>
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+    <h3>Avalie a nossa aplicação</h3>
+    <div id="wrapper">
+        <EditForm Model="loadRate" OnValidSubmit="@setRate">
+            <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrelas" value="5" @onchange="@(() => changeRate(5))">
+                <!--
+                -->
+                <label for="radio1">&#9733;</label>
+                <!--
+                -->
+                <input id="radio2" type="radio" name="estrelas" value="4" @onchange="@(() => changeRate(4))">
+                <!--
+                -->
+                <label for="radio2">&#9733;</label>
+                <!--
+                -->
+                <input id="radio3" type="radio" name="estrelas" value="3" @onchange="@(() => changeRate(3))">
+                <!--
+                -->
+                <label for="radio3">&#9733;</label>
+                <!--
+                -->
+                <input id="radio4" type="radio" name="estrelas" value="2" @onchange="@(() => changeRate(2))">
+                <!--
+                -->
+                <label for="radio4">&#9733;</label>
+                <!--
+                -->
+                <input id="radio5" type="radio" name="estrelas" value="1" @onchange="@(() => changeRate(1))">
+                <!--
+                -->
+                <label for="radio5">&#9733;</label>
+            </p>
+            <input type="submit" value="Avaliar" name="submit" />
+        </EditForm>
+    </div>
+</body>
+</html>
+
+@code {
+
+    int rate = 0;
+    int avaliacao = 0;
+
+    int userNotifications;
+    protected override async Task OnInitializedAsync()
+    {
+        userNotifications = user.listaNotificacoes.Count();
+    }
+
+    LoadRate loadRate = new LoadRate();
+
+    public void changeRate(int i)
+    {
+        rate = i;
+    }
+
+
+    private async Task setRate()
+    {
+        string sql = "UPDATE passageiro set Avaliacao=@Avaliacao WHERE Email=@Email;";
+        await _data.SaveData(sql, new { Avaliacao = rate, Email = user.email }, _config.GetConnectionString("default"));
+
+    }
+
+}

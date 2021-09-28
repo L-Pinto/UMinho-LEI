@@ -1,0 +1,114 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+        .inicio {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 120px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .registo {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 157px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 25px;
+        }
+
+        a {
+            color: black;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="HOME"><i class="fa fa-home"></i></a>
+            <a href="https://tub.pt/" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="TUB"><i class="fa fa-link"></i></a>
+            <a href="https://www.cm-braga.pt/pt" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="BRAGA"><i class="fa fa-globe"></i></a>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+    <div>
+        <a class="inicio" type="button" href="Login" media=max-width: 600px><i class="fa fa-user-o" aria-hidden="true"></i> Iniciar Sessão</a>
+        <p> <a class="registo" type="button" href="Registo"><i class="fa fa-user-plus" aria-hidden="true"></i> Registo</a> </p>
+    </div>
+
+</body>
+</html>
+
+@code{
+
+    /*
+    <AuthorizeView>
+        <Authorized>
+            @userAuthenticated
+
+        </Authorized>
+        <NotAuthorized>
+            <center>
+                <img src="Images/PORALI.png" asp-append-version="true" />
+                <h3>@userAuthenticated</h3>
+            </center>
+        </NotAuthorized>
+    </AuthorizeView>
+    <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+                    <a href="#" class="w3-bar-item w3-button">Extras</a>
+                    <a href="#" class="w3-bar-item w3-button">Media</a>
+                </div>
+            </div>
+
+
+
+    */
+
+
+
+}

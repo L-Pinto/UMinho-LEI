@@ -1,0 +1,197 @@
+﻿@page "/Registo"
+
+@using PorAli.Data
+@using PorAli.Pages.Loads
+@using DataAccessPorali
+@using Microsoft.Extensions.Configuration
+@inject ISqlDataAccess _data
+@inject IConfiguration _config
+@inject NavigationManager uriHelper
+@inject Utilizador utilizador
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+
+        .login {
+            font-family: "Comic Sans MS", "Comic Sans";
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .email {
+            font-family: "Comic Sans MS", "Comic Sans";
+            margin-left: 30px;
+        }
+
+        .codigo {
+            font-family: "Comic Sans MS", "Comic Sans";
+            margin-right: 30px;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+
+        .entrar {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="HOME"><i class="fa fa-home"></i></a>
+            <a href="https://tub.pt/" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="TUB"><i class="fa fa-link"></i></a>
+            <a href="https://www.cm-braga.pt/pt" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="BRAGA"><i class="fa fa-globe"></i></a>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+    @if (result == 1)
+    {
+
+        <h2>Registe-se na nossa aplicação</h2>
+
+    }
+    else if (result == 2)
+    {
+        <div class="w3-panel w3-red w3-border">
+            <h3>ERRO!</h3>
+            <p>Codigo Inválido.</p>
+        </div>
+    }
+    <div class="login">
+        <EditForm Model="load" OnValidSubmit=@InsertRegisto>
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <InputText @bind-Value="load.email" class="form-control" type="text" id="email" placeholder="email" />
+            </div>
+            <div class="form-group">
+                <label for="Password">Password:</label>
+                <InputText @bind-Value="load.password" class="form-control" type="password" id="password" placeholder="password" />
+            </div>
+            <div class="form-group">
+                <label for="Nome">Nome:</label>
+                <InputText @bind-Value="load.nome" class="form-control" type="text" id="nome" placeholder="Nome" />
+            </div>
+            <div class="form-group">
+                <label for="Nome">Opcional - Codigo Amigo:</label>
+                <InputText @bind-Value="load.codAmigo" class="form-control" type="text" id="nome" placeholder="Código Amigo" />
+            </div>
+            <input class="btn btn-primary" href="Conta" type="submit" value="Registar" />
+        </EditForm>
+    </div>
+</body>
+</html>
+
+
+@code{
+    int result = 0;
+
+    LoadRegisto load = new LoadRegisto();
+    List<Utilizador> amigo = new List<Utilizador>();
+
+    private async Task InsertRegisto()
+    {
+        if (result == 0)
+        {
+            utilizador.buildUserRegisto(load.email, load.password, load.nome);
+
+            string sql = "INSERT INTO passageiro (Email, Password, Avaliacao, Codigo, Nome) VALUES (@Email, @Password, @Avaliacao, @Codigo, @Nome);";
+            await _data.SaveData(sql, new { Email = utilizador.email, Password = utilizador.password, Avaliacao = utilizador.avaliacao, Codigo = utilizador.codigo, Nome = utilizador.nome }, _config.GetConnectionString("default"));
+            //falta confirmar se o utilizador já existe ou não
+            result = 1;
+
+            string sqlAtiva1 = "INSERT INTO ativa (UserEmail, NotificacaoID, Ativada) VALUES (@UserEmail, @NotificacaoID, @Ativada);";
+            await _data.SaveData(sqlAtiva1, new { UserEmail = utilizador.email, NotificacaoID = 1, Ativada = 1 }, _config.GetConnectionString("default"));
+
+            string sqlAtiva2 = "INSERT INTO ativa (UserEmail, NotificacaoID, Ativada) VALUES (@UserEmail, @NotificacaoID, @Ativada);";
+            await _data.SaveData(sqlAtiva2, new { UserEmail = utilizador.email, NotificacaoID = 2, Ativada = 1 }, _config.GetConnectionString("default"));
+
+            string sqlAtiva3 = "INSERT INTO ativa (UserEmail, NotificacaoID, Ativada) VALUES (@UserEmail, @NotificacaoID, @Ativada);";
+            await _data.SaveData(sqlAtiva3, new { UserEmail = utilizador.email, NotificacaoID = 3, Ativada = 1 }, _config.GetConnectionString("default"));
+        }
+
+        if (load.codAmigo != null)
+        {
+            result = 2;
+
+            string sqlAmigo = "SELECT * FROM passageiro WHERE Codigo = '" + load.codAmigo + "'"; ;
+            amigo = await _data.LoadData<Utilizador, dynamic>(sqlAmigo, new { }, _config.GetConnectionString("default"));
+
+            foreach (var a in amigo)
+            {
+                result = 3;
+                Random _random = new Random();
+
+                int codigoAmigo = _random.Next(1, 1000000); //não estamos verificar se o código já existe na BD
+                int codigoUser = _random.Next(1, 1000000);
+
+                string codAmigo = codigoAmigo.ToString();
+                string codUser = codigoUser.ToString();
+
+                DateTime now = DateTime.Now;
+                TimeSpan duracao = new System.TimeSpan(20, 0, 0, 0);
+
+                DateTime validade = now.Add(duracao);
+
+                string sqlVgAmigo = "INSERT INTO viagem_gratis (Codigo, Redimida, Validade, UserEmail) VALUES (@Codigo, @Redimida, @Validade, @UserEmail);";
+                await _data.SaveData(sqlVgAmigo, new { Codigo = codAmigo, Redimida = 0, Validade = validade, UserEmail = a.email }, _config.GetConnectionString("default"));
+
+                string sqlVgUser = "INSERT INTO viagem_gratis (Codigo, Redimida, Validade, UserEmail) VALUES (@Codigo, @Redimida, @Validade, @UserEmail);";
+                await _data.SaveData(sqlVgUser, new { Codigo = codUser, Redimida = 0, Validade = validade, UserEmail = utilizador.email }, _config.GetConnectionString("default"));
+
+            }
+
+            if (result == 2)
+            {
+                //uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
+                load.codAmigo = null;
+                //result = 3;
+            }
+        }
+
+        if(result==1 || result==3) uriHelper.NavigateTo("Login");
+    }
+
+}
+

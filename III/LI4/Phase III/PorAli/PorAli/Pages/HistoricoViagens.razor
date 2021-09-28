@@ -1,0 +1,154 @@
+﻿@page "/HistoricoViagens"
+
+@using PorAli.Data
+@using DataAccessPorali;
+@inject Utilizador user
+@inject IModalService Modal
+@inject IModalService Modal
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+        .viagem {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 115px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .consulta {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 88px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 25px;
+        }
+
+        .ajuda {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 167px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        .configuracoes {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 120px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        a {
+            color: black;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="Conta" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Home"><i class="fa fa-home"></i></a>
+            <a href="HistoricoGratis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Viagens Grátis"><i class="fa fa-ticket"></i></a>
+            <a href="HistoricoViagens" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Historico"><i class="fa fa-history"></i></a>
+            <a href="Logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Logout"><i class="fa fa-sign-out"></i></a>
+            <a href="AvaliarApp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Avaliar"><i class="fa fa-star"></i></a>
+            <button @onclick="@(() => Modal.Show<ListaNotificacoes>("As Minhas Notificações"))" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Notifications"><i class="fa fa-bell"></i></button>
+            <a href="ConfiguracaoConta" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+                Bem Vindo/a @user.nome!
+                <img src="/images/user.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+            </a>
+        </div>
+    </div>
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+    @if (lstviagens == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="w3-table-all w3-hoverable">
+            <thead>
+                <tr class="w3-light-grey">
+                    <th>IDViagem</th>
+                    <th>Hora Inicio</th>
+                    <th>Local Partida</th>
+                    <th>Hora Fim</th>
+                    <th>Local Chegada</th>
+                    <th>Preco</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var g in lstviagens)
+                {
+                    <tr>
+                        <td>@g.IDViagem</td>
+                        <td>@g.hora_inicio</td>
+                        <td>@g.local_partida</td>
+                        <td>@g.hora_Fim</td>
+                        <td>@g.local_chegada</td>
+                        <td>@g.preco</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</body>
+</html>
+
+@code {
+
+    Dictionary<int, Viagem> viagem;
+    List<Viagem> lstviagens;
+    int userNotifications;
+
+    protected override async Task OnInitializedAsync()
+    {
+        viagem = user.mapviagens;
+        lstviagens = viagem.Values.ToList();
+        //forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+        userNotifications = user.listaNotificacoes.Count();
+    }
+}

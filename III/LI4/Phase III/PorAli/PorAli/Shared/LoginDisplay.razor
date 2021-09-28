@@ -1,0 +1,175 @@
+﻿@page "/Login"
+
+@using PorAli.Data
+@using PorAli.Pages.Loads
+@using DataAccessPorali;
+@using Microsoft.Extensions.Configuration
+@inject NavigationManager uriHelper
+
+@using System.Threading;
+
+@inject ISqlDataAccess _data
+@inject IConfiguration _config
+@inject Utilizador user
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+
+        .login {
+            font-family: "Comic Sans MS", "Comic Sans";
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .email {
+            margin-left: 30px;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+
+        .entrar {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="HOME"><i class="fa fa-home"></i></a>
+            <a href="https://tub.pt/" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="TUB"><i class="fa fa-link"></i></a>
+            <a href="https://www.cm-braga.pt/pt" class="w3-bar-item w3-button w3-padding-large w3-hover-white" title="BRAGA"><i class="fa fa-globe"></i></a>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+    <div class="login">
+        <EditForm Model="load" OnValidSubmit=@Login>
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <InputText @bind-Value="load.email" class="form-control" type="text" id="email" placeholder="email" />
+            </div>
+            <div class="form-group">
+                <label for="Password">Password:</label>
+                <InputText @bind-Value="load.password" class="form-control" type="password" id="password" placeholder="password" />
+            </div>
+            <input class="btn btn-primary" href="Conta" type="submit" value="Entrar" />
+        </EditForm>
+    </div>
+</body>
+</html>
+
+@code{
+
+    List<Utilizador> users;
+    List<ConfigNotificacoes> config;
+    List<Viagem> viagens;
+    List<ViagemGratis> gratis;
+
+    LoadUser load = new LoadUser();
+
+    //[Parameter]
+    //public Utilizador utilizador = new Utilizador();
+
+    string res;
+    bool result = false;
+
+
+    private async Task Login()
+    {
+        string sql = "SELECT * FROM passageiro WHERE email = '" + load.email + "'";
+        users = await _data.LoadData<Utilizador, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+
+
+        foreach (var u in users)
+        {
+            if (u.password.Equals(load.password))
+            {
+                string sqlCongif = "SELECT N.IDNotificacao, N.Nome, A.ativada " +
+                            "FROM ativa AS A " +
+                            "JOIN passageiro AS P ON A.UserEmail = P.Email " +
+                            "JOIN notificacao AS N ON A.NotificacaoID = N.IDNotificacao " +
+                            "WHERE email = '" + load.email + "'";
+
+                config = await _data.LoadData<ConfigNotificacoes, dynamic>(sqlCongif, new { }, _config.GetConnectionString("default"));
+
+                string sqlViagens = "SELECT V.IDViagem, V.Hora_inicio, V.Hora_Fim, V.Local_chegada, V.Local_partida, V.Preco " +
+                            "FROM efetua AS E JOIN passageiro AS P ON E.UserEmail = P.Email " +
+                            "JOIN viagem AS V ON E.ViagemID = V.IDViagem " +
+                            "WHERE email =  '" + load.email + "'";
+
+                viagens = await _data.LoadData<Viagem, dynamic>(sqlViagens, new { }, _config.GetConnectionString("default"));
+
+
+                string sqlGratis = "SELECT V.Codigo, V.Redimida, V.Validade" +
+                            " FROM viagem_gratis AS V " +
+                            "JOIN passageiro AS P ON V.UserEmail = P.Email " +
+                            "WHERE email = '" + load.email + "'";
+
+                gratis = await _data.LoadData<ViagemGratis, dynamic>(sqlGratis, new { }, _config.GetConnectionString("default"));
+
+
+                user.buildUser(config, viagens, gratis, u);
+
+
+                res = "Utilizador válido";
+
+                result = true;
+
+                load.email = null;
+                load.password = null;
+
+
+                uriHelper.NavigateTo("Conta");
+                //uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
+            }
+            else
+            {
+                res = "Utilizaddor Inválido";
+                uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
+            }
+        }
+
+
+    }
+}

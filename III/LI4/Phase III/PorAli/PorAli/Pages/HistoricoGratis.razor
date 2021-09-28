@@ -1,0 +1,242 @@
+﻿@page "/HistoricoGratis"
+
+@using PorAli.Data
+@using DataAccessPorali;
+@using Microsoft.Extensions.Configuration
+@inject NavigationManager uriHelper
+@inject IModalService Modal
+
+@using System.Threading;
+
+@inject ISqlDataAccess _data
+@inject IConfiguration _config
+@inject Utilizador user
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+        .viagem {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 115px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .consulta {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 88px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 25px;
+        }
+
+        .ajuda {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 167px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        .configuracoes {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 120px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        a {
+            color: black;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="Conta" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Home"><i class="fa fa-home"></i></a>
+            <a href="HistoricoGratis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Viagens Grátis"><i class="fa fa-ticket"></i></a>
+            <a href="HistoricoViagens" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Historico"><i class="fa fa-history"></i></a>
+            <a href="Logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Logout"><i class="fa fa-sign-out"></i></a>
+            <a href="AvaliarApp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Avaliar"><i class="fa fa-star"></i></a>
+            <button @onclick="@(() => Modal.Show<ListaNotificacoes>("As Minhas Notificações"))" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Notifications"><i class="fa fa-bell"></i></button>
+            <a href="ConfiguracaoConta" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+                Bem Vindo/a @user.nome!
+                <img src="/images/user.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+            </a>
+        </div>
+    </div>
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+
+    @if (result == 1)
+    {
+        <div class="w3-panel w3-pale-green w3-border">
+            <h3>Sucesso!</h3>
+            <p>Viagem Redimida com sucesso.</p>
+        </div> }
+    else if (result == 0)
+    {
+        <h2>Utilize uma viagem grátis</h2>
+    }
+    else if (result == 2)
+    {
+        <div class="w3-panel w3-pale-green w3-border">
+            <h3>Viagem Utilizada!</h3>
+            <p>A viagem foi eliminada com sucesso</p>
+        </div>
+
+    }
+
+    @if (gratis == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="w3-table-all w3-hoverable">
+            <thead>
+                <tr class="w3-light-grey">
+                    <th>Codigo Viagem</th>
+                    <th>Validade</th>
+                    <th>Redimir</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var g in gratis)
+                {
+                    if (!g.redimida)
+                    {
+                        <tr>
+                            <td>@g.codigo</td>
+                            <td>@g.validade</td>
+                            <td><button type="button" @onclick="@(() => redimeViagem(g.codigo))">Redimir</button></td>
+                        </tr>
+                    }
+
+                }
+            </tbody>
+        </table>
+    }
+
+    <h2>Viagens grátis redimidas</h2>
+
+    @if (gratis == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="w3-table-all w3-hoverable">
+            <thead>
+                <tr class="w3-light-grey">
+                    <th>Codigo Viagem</th>
+                    <th>Validade</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var g in gratis)
+                {
+                    if (g.redimida)
+                    {
+                        <tr>
+                            <td>@g.codigo</td>
+                            <td>30 minutos</td>
+                            <td><button type="button" @onclick="@(() => eliminarViagem(g.codigo))">Eliminar</button></td>
+                        </tr>
+                    }
+
+                }
+            </tbody>
+        </table>
+    }
+</body>
+</html>
+
+
+@code {
+
+    int result = 0;
+
+    List<ViagemGratis> gratis;
+    int userNotifications;
+
+    private async Task redimeViagem(string codigo)
+    {
+        //int cod = Int32.Parse("codigo");
+        string sql = "UPDATE viagem_gratis set Redimida=@Redimida WHERE Codigo=@Codigo;";
+        await _data.SaveData(sql, new { Redimida = 1, Codigo = codigo }, _config.GetConnectionString("default"));
+
+        user.updateViagens(codigo);
+
+        result = 1;
+        await OnInitializedAsync();
+
+
+    }
+
+
+
+    private async Task eliminarViagem(string codigo)
+    {
+        //int cod = Int32.Parse("codigo");
+        string sqleliminar = "DELETE FROM viagem_gratis WHERE Codigo=@Codigo;";
+        await _data.SaveData(sqleliminar, new { Codigo = codigo }, _config.GetConnectionString("default"));
+
+        user.deleteViagens(codigo);
+
+        result = 2;
+        await OnInitializedAsync();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        gratis = user.lstviagemGratis;
+        userNotifications = user.listaNotificacoes.Count();
+    }
+
+
+}

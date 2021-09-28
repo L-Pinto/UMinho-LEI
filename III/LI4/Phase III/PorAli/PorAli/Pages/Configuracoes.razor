@@ -1,0 +1,182 @@
+﻿
+@page "/Configuracoes"
+
+
+@using PorAli.Data
+@using DataAccessPorali;
+@using Microsoft.Extensions.Configuration
+@inject Utilizador user
+@inject IModalService Modal
+
+@inject ISqlDataAccess _data
+@inject IConfiguration _config
+
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+        .viagem {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 115px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .consulta {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 88px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 25px;
+        }
+
+        .ajuda {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 167px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        .configuracoes {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 15px 120px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        a {
+            color: black;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+    </style>
+</head>
+<body>
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="Conta" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Home"><i class="fa fa-home"></i></a>
+            <a href="HistoricoGratis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Viagens Grátis"><i class="fa fa-ticket"></i></a>
+            <a href="HistoricoViagens" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Historico"><i class="fa fa-history"></i></a>
+            <a href="Logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Logout"><i class="fa fa-sign-out"></i></a>
+            <a href="AvaliarApp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Avaliar"><i class="fa fa-star"></i></a>
+            <button @onclick="@(() => Modal.Show<ListaNotificacoes>("As Minhas Notificações"))" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Notifications"><i class="fa fa-bell"></i></button>
+            <a href="ConfiguracaoConta" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+                Bem Vindo/a @user.nome!
+                <img src="/images/user.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+            </a>
+        </div>
+    </div>
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+
+    @if (config == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="w3-table-all w3-hoverable">
+            <thead>
+                <tr class="w3-light-grey">
+                    <th>Notificacao</th>
+                    <th>Ativar/Desativar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in config)
+                {
+                    if (c.ativada)
+                    {
+                        <tr>
+                            <td>@c.nome</td>
+                            <td><button type="button" @onclick="@(() => desativarViagem(c.IDNotificacao))">Desativar</button></td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td>@c.nome</td>
+                            <td><button type="button" @onclick="@(() => ativarViagem(c.IDNotificacao))">Ativar</button></td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    }
+</body>
+</html>
+
+@code {
+
+    List<ConfigNotificacoes> config;
+
+    int userNotifications;
+
+
+    private async Task desativarViagem(string codigo)
+    {
+        string sqlDesativar = "UPDATE ativa set Ativada=@Ativada WHERE NotificacaoID=@Codigo AND UserEmail=@UserEmail;";
+        await _data.SaveData(sqlDesativar, new { Ativada = 0, Codigo = codigo, UserEmail = user.email }, _config.GetConnectionString("default"));
+
+        user.updateConfig(false, codigo);
+
+        await OnInitializedAsync();
+    }
+
+    private async Task ativarViagem(string codigo)
+    {
+        string sqlAtivar = "UPDATE ativa set Ativada=@Ativada WHERE NotificacaoID=@Codigo AND UserEmail=@UserEmail;";
+        await _data.SaveData(sqlAtivar, new { Ativada = 1, Codigo = codigo, UserEmail = user.email }, _config.GetConnectionString("default"));
+
+        user.updateConfig(true, codigo);
+        await OnInitializedAsync();
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        userNotifications = user.listaNotificacoes.Count();
+        config = user.lstconfiguracaoes;
+    }
+
+}

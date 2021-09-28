@@ -1,0 +1,107 @@
+﻿@page "/Ajuda"
+@using PorAli.Data
+@inject Utilizador user
+@inject IModalService Modal
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorAli</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .img {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: #5396da;
+        }
+
+        .logo {
+            text-align: center;
+            width: 30%;
+            margin-top: 100px;
+        }
+
+
+        .login {
+            font-family: "Comic Sans MS", "Comic Sans";
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .email {
+            font-family: "Comic Sans MS", "Comic Sans";
+            margin-left: 30px;
+        }
+
+        .codigo {
+            font-family: "Comic Sans MS", "Comic Sans";
+            margin-right: 30px;
+        }
+
+        .font {
+            font-family: "Comic Sans MS", "Comic Sans";
+        }
+
+        .entrar {
+            font-family: "Comic Sans MS", "Comic Sans";
+            background-color: #cac7c7;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="font">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="Conta" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Home"><i class="fa fa-home"></i></a>
+            <a href="HistoricoGratis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Viagens Grátis"><i class="fa fa-ticket"></i></a>
+            <a href="HistoricoViagens" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Historico"><i class="fa fa-history"></i></a>
+            <a href="Logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Logout"><i class="fa fa-sign-out"></i></a>
+            <a href="AvaliarApp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Avaliar"><i class="fa fa-star"></i></a>
+            <button @onclick="@(() => Modal.Show<ListaNotificacoes>("As Minhas Notificações"))" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Notifications"><i class="fa fa-bell"></i></button>
+            <a href="ConfiguracaoConta" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+                Bem Vindo/a @user.nome!
+                <img src="/images/user.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+            </a>
+        </div>
+    </div>
+    <img class="logo" src="./images/logo.png" media=max-width: 600px>
+
+    <h1>Ajuda</h1>
+
+    <ul>
+        <li> Home - Página principal da aplicação</li>
+        <li> Iniciar Viagem - permite iniciar uma viagem fornecendo a sua localização atual e a localização pretendida</li>
+        <li> Consultar Horários - permite consultar os horários dos autocarros disponíveis</li>
+        <li> Ajuda - permite consultar o que as opções fazem</li>
+        <li> Configurações - permite editar dados do perfil e notificações</li>
+    </ul>
+</body>
+</html>
+
+@code {
+
+    int userNotifications;
+    protected override async Task OnInitializedAsync()
+    {
+        userNotifications = user.listaNotificacoes.Count();
+    }
+}
