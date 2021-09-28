@@ -1,4 +1,6 @@
-### :books: Software Labs II
+### Software Labs II
+
+
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
