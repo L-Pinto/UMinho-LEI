@@ -1,0 +1,15 @@
+<scene>
+    <group>
+    	<translate time="5">
+			<point x="-1" y="0" z="-4"/>
+			<point x="-5" y="0" z="4"/> 
+			<point x="5" y="5" z="4"/>
+			<point x="5" y="0" z="0"/>			
+		</translate>
+        <scale x="0.1" y="0.1" z="0.1"/>
+        <color x="0.5" y="0.9" z="0.4"/>
+        <models>
+			<model file="comet.3d"/>
+		</models>
+	</group>
+</scene>

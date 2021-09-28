@@ -1,0 +1,296 @@
+<scene>
+    <group>
+        <rotate time="1" x="0" y="1" z="0" />
+        <color x="1" y="0.80784313725490196" z="0"/>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+    </group>
+    <group> 
+        <rotate time="2" x="0" y="1" z="0" />
+        <translate x="1.5" y="0" z="0"/>  
+        <group>
+            <rotate time="30" x="0" y="1" z="0" />
+            <scale x="0.11" y="0.11" z="0.11"/>
+            <color x="0.772549019607843137" y="0.6980392156862745" z="0.6"/>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <rotate time="6" x="0" y="-1" z="0" />
+        <translate x="2.1" y="0" z="0"/>
+        <group>
+            <rotate time="80" x="0" y="-0.9" z="0" />
+            <scale x="0.18" y="0.18" z="0.18"/>
+            <color x="0.8" y="0.7490196078" z="0.737254902"/>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <rotate time="12" x="0" y="1" z="0" />
+        <translate x="3.1" y="0" z="0"/>
+        <group>
+            <rotate time="10" x="0" y="0.7" z="0" />
+            <scale x="0.19" y="0.19" z="0.19"/>
+            <color x="0.2549019607843" y="0.411764705882" z="0.8823529411764"/>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+            <group>
+                <rotate time="16" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.5" z="0"/>
+                <group>
+                    <rotate time="9" x="0" y="1" z="0" />
+                    <scale x="0.33" y="0.33" z="0.33"/>
+                    <color x="0.95686274509803921568" y="0.93333333333333333" z="0.92156862745098039"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="18" x="0" y="1" z="0" />
+        <translate x="4.1" y="0" z="0"/>
+        <group>
+            <rotate time="10" x="0" y="0.7" z="0" />
+            <scale x="0.13" y="0.13" z="0.13"/>
+            <color x="0.8156862745098039" y="0.28235294117647" z="0.14509803921568"/>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+		    <group>
+                <rotate time="15" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.5" z="0"/>
+                <group>
+                    <rotate time="11" x="0" y="1" z="0" />
+                    <scale x="0.33" y="0.33" z="0.33"/>
+                    <color x="0.65098039215686274509803921568627" y="0.5960784313725490196078431372549" z="0.52156862745098039215686274509804"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="19" x="1" y="1" z="0" />
+                <translate x="1.5" y="-0.5" z="0"/>
+                <group>
+                    <rotate time="11" x="0" y="1" z="0" />
+                    <scale x="0.33" y="0.33" z="0.33"/>
+                    <color x="0.65098039215686274509803921568627" y="0.5960784313725490196078431372549" z="0.52156862745098039215686274509804"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="60" x="0" y="1" z="0" />
+        <color x="1" y="1" z="1"/>
+        <models>
+            <model file="points.3d"/>
+        </models>
+    </group>
+    <group>
+        <rotate time="36" x="0" y="1" z="0" />
+        <translate x="6.5" y="0" z="0"/>
+        <group>
+            <rotate time="6" x="0" y="1" z="0" />
+            <scale x="0.5" y="0.5" z="0.5"/>
+            <color x="0.5882352941176" y="0.3411764705882" z="0.16470588235294"/>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+		    <group>
+                <rotate time="22" x="0" y="0" z="1" />
+                <translate x="1.5" y="0.5" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.15" y="0.15" z="0.15"/>
+                    <color x="0.91764705882352941176470588235294" y="0.85490196078431372549019607843137" z="0.25098039215686274509803921568627"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="21" x="1" y="0" z="0" />
+                <translate x="1.5" y="-0.2" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.14" y="0.14" z="0.14"/>
+                    <color x="0.91764705882352941176470588235294" y="0.90588235294117647058823529411765" z="0.81960784313725490196078431372549"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="18" x="1" y="1" z="0" />
+                <translate x="1.5" y="-0.5" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.16" y="0.16" z="0.16"/>
+                    <color x="0.68235294117647058823529411764706" y="0.55686274509803921568627450980392" z="0.36078431372549019607843137254902"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="20" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.3" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.15" y="0.15" z="0.15"/>
+                    <color x="0.82352941176470588235294117647059" y="0.44705882352941176470588235294118" z="0.13333333333333333333333333333333"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="48" x="0" y="1" z="0" />
+        <translate x="8" y="0" z="0"/>
+        <group>
+            <rotate time="5" x="0" y="1" z="0" />
+            <scale x="0.45" y="0.45" z="0.45"/>
+            <color x="0.890196078431372549" y="0.64313725490196078" z="0.3333333333333333"/>
+            <models>
+                <model file="sphere.3d"/>
+            </models>                   
+            <group>
+                <rotate angle="90" x="1" y="0" z="0.7"/>
+                <scale x="1.2" y="1.2" z="1.2"/>
+                <color x="0.62745098039215" y="0.321568627450980" z="0.17647058823529411"/>
+                <models>
+                    <model file="ring.3d"/>
+                </models>
+            </group>            
+		    <group>
+                <rotate time="25" x="0" y="1" z="1" />
+                <translate x="1.5" y="-0.5" z="0"/>
+                <group>
+                    <rotate time="7" x="0" y="1" z="0" />
+                    <scale x="0.18" y="0.18" z="0.18"/>
+                    <color x="0.89019607843137254901960784313725" y="0.86274509803921568627450980392157" z="0.82745098039215686274509803921569"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="22" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.3" z="0"/>
+                <group>
+                    <rotate time="7" x="0" y="1" z="0" />
+                    <scale x="0.19" y="0.19" z="0.19"/>
+                    <color x="0.90588235294117647058823529411765" y="0.75294117647058823529411764705882" z="0.09019607843137254901960784313725"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="18" x="1" y="1" z="0" />
+                <translate x="1.5" y="-0.5" z="0"/>
+                <group>
+                    <rotate time="7" x="0" y="1" z="0" />
+                    <scale x="0.17" y="0.17" z="0.17"/>
+                    <color x="0.89019607843137254901960784313725" y="0.86274509803921568627450980392157" z="0.82745098039215686274509803921569"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="60" x="0" y="-1" z="0" />
+        <translate x="9.5" y="0" z="0"/>
+        <group>
+            <rotate time="7" x="0" y="0" z="1" />
+            <scale x="0.38" y="0.38" z="0.38"/>
+            <color x="0.372549019607843137" y="0.61960784313725490" z="0.62745098039215686"/>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+		    <group>
+                <rotate time="21" x="0" y="1" z="1" />
+                <translate x="1.5" y="0.2" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.19" y="0.19" z="0.19"/>
+                    <color x="0.89019607843137254901960784313725" y="0.86274509803921568627450980392157" z="0.82745098039215686274509803921569"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+		    <group>
+                <rotate time="20" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.4" z="0"/>
+                <group>
+                    <rotate time="10" x="0" y="1" z="0" />
+                    <scale x="0.20" y="0.20" z="0.20"/>
+                    <color x="0.89019607843137254901960784313725" y="0.86274509803921568627450980392157" z="0.82745098039215686274509803921569"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="78" x="0" y="1" z="0" />
+        <translate x="10.75" y="0" z="0"/>
+        <group>
+            <rotate time="6" x="0" y="1" z="0" />
+            <scale x="0.37" y="0.37" z="0.37"/>
+            <color x="0.184313725490196" y="0.184313725490196" z="0.839215686274509"/>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+		    <group>
+                <rotate time="20" x="0" y="1" z="0" />
+                <translate x="1.5" y="0.5" z="0"/>
+                <group>
+                    <rotate time="4" x="0" y="1" z="0" />
+                    <scale x="0.21" y="0.21" z="0.21"/>
+                    <color x="0.95686274509803921568627450980392" y="0.85490196078431372549019607843137" z="0.42352941176470588235294117647059"/>
+                    <models>
+                        <model file="sphere.3d"/>
+                    </models>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group>
+        <rotate time="60" x="0" y="1" z="0" />
+        <color x="1" y="1" z="1"/>
+        <models>
+            <model file="pointsKuiper.3d"/>
+        </models>
+    </group>
+    <group>
+    	<translate time="5">
+			<point x="-1" y="0" z="-4"/>
+			<point x="-5" y="0" z="4"/> 
+			<point x="5" y="5" z="4"/>
+			<point x="5" y="0" z="0"/>			
+		</translate>
+        <scale x="0.1" y="0.1" z="0.1"/>
+        <color x="0.5" y="0.9" z="0.4"/>
+        <models>
+			<model file="comet.3d"/>
+		</models>
+	</group>
+</scene>
