@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/proj.dir/main.c.o CMakeFiles/proj.dir/estado.c.o CMakeFiles/proj.dir/interpretador.c.o CMakeFiles/proj.dir/jogada.c.o CMakeFiles/proj.dir/undo.c.o CMakeFiles/proj.dir/bot.c.o  -o proj 

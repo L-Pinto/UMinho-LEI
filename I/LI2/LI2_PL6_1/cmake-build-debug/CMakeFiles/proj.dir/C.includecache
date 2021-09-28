@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luisa/LI2_PL6_1/reversi/estado.h
+
+/home/luisa/LI2_PL6_1/reversi/interpretador.h
+estado.h
+/home/luisa/LI2_PL6_1/reversi/estado.h
+undo.h
+/home/luisa/LI2_PL6_1/reversi/undo.h
+
+/home/luisa/LI2_PL6_1/reversi/jogada.h
+estado.h
+/home/luisa/LI2_PL6_1/reversi/estado.h
+
+/home/luisa/LI2_PL6_1/reversi/main.c
+stdio.h
+-
+estado.h
+/home/luisa/LI2_PL6_1/reversi/estado.h
+interpretador.h
+/home/luisa/LI2_PL6_1/reversi/interpretador.h
+jogada.h
+/home/luisa/LI2_PL6_1/reversi/jogada.h
+undo.h
+/home/luisa/LI2_PL6_1/reversi/undo.h
+
+/home/luisa/LI2_PL6_1/reversi/undo.h
+estado.h
+/home/luisa/LI2_PL6_1/reversi/estado.h
+

@@ -1,0 +1,3 @@
+/home/luisa/LI2_PL6_1/reversi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/luisa/LI2_PL6_1/reversi/cmake-build-debug/CMakeFiles/proj.dir
+/home/luisa/LI2_PL6_1/reversi/cmake-build-debug/CMakeFiles/edit_cache.dir
