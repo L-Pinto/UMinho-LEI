@@ -1,3 +1,5 @@
+![alt text](https://github.com/L-Pinto/UMinho-LEI/blob/main/UM_logo.jpg)
+
 # UMinho-LEI
 Projects developed during my Software Engineering Bachelor's Degree
 
