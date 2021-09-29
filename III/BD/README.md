@@ -1,6 +1,6 @@
 ### Databases
 
-:bulb:	 In this project ... put fitting text here... just an example
+:bulb: About : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
 
 :pushpin: Final Grade : 18
 
