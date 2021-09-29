@@ -3,7 +3,7 @@ Projects developed during my Software Engineering Bachelor's Degree
 
 ***
 
-### :wavy_dash: THIRD YEAR :wavy_dash:   2020 / 2021 EDITION
+### :wavy_dash: THIRD YEAR :wavy_dash:      2020 / 2021 EDITION
 
 #### 1st Semester 
 **18** - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
@@ -34,7 +34,7 @@ Projects developed during my Software Engineering Bachelor's Degree
 
 ***
 
-### :wavy_dash: SECOND YEAR :wavy_dash:   2019 / 2020 EDITION
+### :wavy_dash: SECOND YEAR :wavy_dash:      2019 / 2020 EDITION
 
 #### 2nd Semester 
 **17, 18** - [Software Labs III](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/LI3)
@@ -48,7 +48,7 @@ Projects developed during my Software Engineering Bachelor's Degree
 
 ***
 
-### :wavy_dash: FIRST YEAR :wavy_dash:   2018 / 2019 EDITION
+### :wavy_dash: FIRST YEAR :wavy_dash:      2018 / 2019 EDITION
 
 #### 1st Semester 
 **14** - [Software Labs I](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI1)
