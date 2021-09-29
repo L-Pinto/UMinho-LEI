@@ -18,20 +18,20 @@
 
 [ **17/20** ] - [Computer Networks](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/RC)
 
-**18, 19** - [Numerical Methods and Nonlinear Optimization](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MNOL)
+[ **18/20 , 19/20** ] - [Numerical Methods and Nonlinear Optimization](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MNOL)
 
 #### Second Semester 
-**16** - [Software Labs IV](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/LI4)
+[ **16/20** ] - [Software Labs IV](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/LI4)
 
-**18, 18** - [Knowledge and Reasoning Representation Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SRCR)
+[ **18/20 , 18/20** ] - [Knowledge and Reasoning Representation Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SRCR)
 
-**18** - [Computer Graphics](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CG)
+[ **18/20** ] - [Computer Graphics](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CG)
 
-**18** - [Stochastic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MEIO)
+[ **18/20** ] - [Stochastic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MEIO)
 
-**19, 16** - [Language Processing](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/PL)
+[ **19/20 , 16/20** ] - [Language Processing](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/PL)
 
-**16** - [Computer Communications](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CC)
+[ **17/20** ] - [Computer Communications](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CC)
 
 
 ***
@@ -39,13 +39,13 @@
 ### :wavy_dash: SECOND YEAR :wavy_dash:      2019 / 2020 EDITION
 
 #### Second Semester 
-**17, 18** - [Software Labs III](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/LI3)
+[ **17/20 , 18/20** ] - [Software Labs III](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/LI3)
 
-**13** - [Program Calculation](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/CP)
+[ **13/20** ] - [Program Calculation](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/CP)
 
-**13** - [Operating Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/SO)
+[ **13/20** ] - [Operating Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/SO)
 
-**15** - [Object Oriented Programming](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/POO)
+[ **15/20** ] - [Object Oriented Programming](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/POO)
 
 
 ***
@@ -53,7 +53,7 @@
 ### :wavy_dash: FIRST YEAR :wavy_dash:      2018 / 2019 EDITION
 
 #### First Semester 
-**14** - [Software Labs I](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI1)
+[ **14/20** ] - [Software Labs I](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI1)
 
 #### Second Semester 
-**16** - [Software Labs II](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI2)
+[ **16/20** ] - [Software Labs II](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI2)
