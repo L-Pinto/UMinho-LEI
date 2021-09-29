@@ -1,6 +1,6 @@
 ![alt text](https://github.com/L-Pinto/UMinho-LEI/blob/main/UM_logo.jpg)
 
-# UMinho-LEI
+# Software Engineering Bachelor's @ [University of Minho](https://www.uminho.pt/EN/)
 :small_orange_diamond: Projects developed during my Software Engineering Bachelor's Degree.
 
 ***
