@@ -8,15 +8,15 @@
 ### :wavy_dash: THIRD YEAR :wavy_dash:      2020 / 2021 EDITION
 
 #### First Semester 
-**18** - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
+[**18**] - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
 
-**15** - [Software Systems Development](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/DSS)
+**[15]** - [Software Systems Development](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/DSS)
 
-**20, 15, 20** - [Deterministic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MDIO)
+*20, 15, 20* - [Deterministic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MDIO)
 
-**16** - [Distributed Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SD)
+*[16]* - [Distributed Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SD)
 
-**17** - [Computer Networks](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/RC)
+[*17*] - [Computer Networks](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/RC)
 
 **18, 19** - [Numerical Methods and Nonlinear Optimization](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MNOL)
 
