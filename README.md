@@ -20,7 +20,7 @@
 
 [ **18/20 , 19/20** ] - [Numerical Methods and Nonlinear Optimization](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MNOL)
 
-#### Second Semester 
+### Second Semester 
 [ **16/20** ] - [Software Labs IV](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/LI4)
 
 [ **18/20 , 18/20** ] - [Knowledge and Reasoning Representation Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SRCR)
@@ -38,7 +38,7 @@
 
 ### :wavy_dash: SECOND YEAR :wavy_dash:      2019 / 2020 EDITION
 
-#### Second Semester 
+### Second Semester 
 [ **17/20 , 18/20** ] - [Software Labs III](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/LI3)
 
 [ **13/20** ] - [Program Calculation](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/CP)
@@ -52,8 +52,8 @@
 
 ### :wavy_dash: FIRST YEAR :wavy_dash:      2018 / 2019 EDITION
 
-#### First Semester 
+### First Semester 
 [ **14/20** ] - [Software Labs I](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI1)
 
-#### Second Semester 
+### Second Semester 
 [ **16/20** ] - [Software Labs II](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI2)
