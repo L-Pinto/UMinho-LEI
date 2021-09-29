@@ -1,0 +1,74 @@
+[
+	 {
+		"id": "100", 
+		"curso": "MIETI", 
+		"nome": "Margette", 
+		"apelido": "Rodmann", 
+		"email": "Margette.Rodmann@plmail.com", 
+		"notas": [14, 2, 11, 19], 
+		"notas_sum": 46, 
+		"notas_avg": 11.5, 
+		"notas_max": 19, 
+		"notas_min": 2
+	 },
+	 {
+		"id": "101", 
+		"curso": "MIEI", 
+		"nome": "Noelle", 
+		"apelido": "Natica", 
+		"email": "Noelle.Natica@plmail.com", 
+		"notas": [19, 11, 17, 18, 12, 10], 
+		"notas_sum": 87, 
+		"notas_avg": 14.5, 
+		"notas_max": 19, 
+		"notas_min": 10
+	 },
+	 {
+		"id": "102", 
+		"curso": "MIEI", 
+		"nome": "Phedra", 
+		"apelido": "Elvyn", 
+		"email": "Phedra.Elvyn@plmail.com", 
+		"notas": [8, 10, 10, 17, 9, 12], 
+		"notas_sum": 66, 
+		"notas_avg": 11.0, 
+		"notas_max": 17, 
+		"notas_min": 8
+	 },
+	 {
+		"id": "103", 
+		"curso": "MIEFIS", 
+		"nome": "Donnie", 
+		"apelido": "Grobe", 
+		"email": "Donnie.Grobe@plmail.com", 
+		"notas": [12, 12, 15, 8, 13, 4], 
+		"notas_sum": 64, 
+		"notas_avg": 10.666666666666666, 
+		"notas_max": 15, 
+		"notas_min": 4
+	 },
+	 {
+		"id": "104", 
+		"curso": "MIEI", 
+		"nome": "Hope", 
+		"apelido": "Felecia", 
+		"email": "Hope.Felecia@plmail.com", 
+		"notas": [16, 19, 16, 13, 19, 19], 
+		"notas_sum": 102, 
+		"notas_avg": 17.0, 
+		"notas_max": 19, 
+		"notas_min": 13
+	 },
+	 {
+		"id": "105", 
+		"curso": "MIEFIS", 
+		"nome": "Helena", 
+		"apelido": "Ball", 
+		"email": "Helena.Ball@plmail.com", 
+		"notas": [14, 18, 18, 12, 7, 18], 
+		"notas_sum": 87, 
+		"notas_avg": 14.5, 
+		"notas_max": 18, 
+		"notas_min": 7
+	 }
+]

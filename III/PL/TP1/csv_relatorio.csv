@@ -1,0 +1,7 @@
+id;curso;nome;apelido;email;notas*;notas*sum;notas*avg;notas*max;notas*min
+100;MIETI;Margette;Rodmann;Margette.Rodmann@plmail.com;(14,2,11,19);(14,2,11,19);(14,2,11,19);(14,2,11,19);(14,2,11,19)
+101;MIEI;Noelle;Natica;Noelle.Natica@plmail.com;(19,11,17,18,12,10);(19,11,17,18,12,10);(19,11,17,18,12,10);(19,11,17,18,12,10);(19,11,17,18,12,10)
+102;MIEI;Phedra;Elvyn;Phedra.Elvyn@plmail.com;(8,10,10,17,9,12);(8,10,10,17,9,12);(8,10,10,17,9,12);(8,10,10,17,9,12);(8,10,10,17,9,12)
+103;MIEFIS;Donnie;Grobe;Donnie.Grobe@plmail.com;(12,12,15,8,13,4);(12,12,15,8,13,4);(12,12,15,8,13,4);(12,12,15,8,13,4);(12,12,15,8,13,4)
+104;MIEI;Hope;Felecia;Hope.Felecia@plmail.com;(16,19,16,13,19,19);(16,19,16,13,19,19);(16,19,16,13,19,19);(16,19,16,13,19,19);(16,19,16,13,19,19)
+105;MIEFIS;Helena;Ball;Helena.Ball@plmail.com;(14,18,18,12,7,18);(14,18,18,12,7,18);(14,18,18,12,7,18);(14,18,18,12,7,18);(14,18,18,12,7,18)
