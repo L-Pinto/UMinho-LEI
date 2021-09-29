@@ -1,6 +1,8 @@
 ### :bar_chart:	 Databases
 
-:pushpin: Final Grade :
+:mag:	 In this project ... put fitting text here... just an example
+
+:pushpin: Final Grade : 18
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
