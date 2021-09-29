@@ -5,7 +5,7 @@ Projects developed during my Software Engineering Bachelor's Degree
 ### :wavy_dash: FIRST YEAR :wavy_dash:
 
 #### 1st Semester 
-**18** - [Software Labs I]()
+**14** - [Software Labs I]()
 
 #### 2nd Semester 
 **16** - [Software Labs II]()
