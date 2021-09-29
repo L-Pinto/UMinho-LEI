@@ -8,9 +8,9 @@
 ### :wavy_dash: THIRD YEAR :wavy_dash:      2020 / 2021 EDITION
 
 ### First Semester 
-:white_medium_small_square: [ **18/20** ] - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
+:white_medium_square: [ **18/20** ] - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
 
-:star: [ **15/20** ] - [Software Systems Development](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/DSS)
+:white_medium_square: [ **15/20** ] - [Software Systems Development](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/DSS)
 
 :star: [ **20/20 , 15/20 , 20/20** ] - [Deterministic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MDIO)
 
