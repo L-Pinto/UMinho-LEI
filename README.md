@@ -2,30 +2,8 @@
 Projects developed during my Software Engineering Bachelor's Degree
 
 ***
-### :wavy_dash: FIRST YEAR :wavy_dash:
 
-#### 1st Semester 
-**14** - [Software Labs I](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI1)
-
-#### 2nd Semester 
-**16** - [Software Labs II](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI2)
-
-***
-
-### :wavy_dash: SECOND YEAR :wavy_dash:
-
-#### 2nd Semester 
-**17, 18** - [Software Labs III](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/LI3)
-
-**13** - [Program Calculation](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/CP)
-
-**13** - [Operating Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/SO)
-
-**15** - [Object Oriented Programming](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/POO)
-
-***
-
-### :wavy_dash: THIRD YEAR :wavy_dash:
+### :wavy_dash: THIRD YEAR :wavy_dash:   2020 / 2021 EDITION
 
 #### 1st Semester 
 **18** - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
@@ -52,3 +30,28 @@ Projects developed during my Software Engineering Bachelor's Degree
 **19, 16** - [Language Processing](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/PL)
 
 **16** - [Computer Communications](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CC)
+
+
+***
+
+### :wavy_dash: SECOND YEAR :wavy_dash:   2019 / 2020 EDITION
+
+#### 2nd Semester 
+**17, 18** - [Software Labs III](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/LI3)
+
+**13** - [Program Calculation](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/CP)
+
+**13** - [Operating Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/SO)
+
+**15** - [Object Oriented Programming](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/POO)
+
+
+***
+
+### :wavy_dash: FIRST YEAR :wavy_dash:   2018 / 2019 EDITION
+
+#### 1st Semester 
+**14** - [Software Labs I](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI1)
+
+#### 2nd Semester 
+**16** - [Software Labs II](https://github.com/L-Pinto/UMinho-LEI/tree/main/I/LI2)
