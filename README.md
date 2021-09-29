@@ -21,17 +21,17 @@
 :small_blue_diamond: [ **18/20 , 19/20** ] - [Numerical Methods and Nonlinear Optimization](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MNOL)
 
 ### Second Semester 
-:star: [ **16/20** ] - [Software Labs IV](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/LI4)
+:white_medium_square: [ **16/20** ] - [Software Labs IV](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/LI4)
 
-:star: [ **18/20 , 18/20** ] - [Knowledge and Reasoning Representation Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SRCR)
+:white_medium_square: [ **18/20 , 18/20** ] - [Knowledge and Reasoning Representation Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SRCR)
 
-:star: [ **18/20** ] - [Computer Graphics](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CG)
+:white_medium_square: [ **18/20** ] - [Computer Graphics](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CG)
 
-:star: [ **18/20** ] - [Stochastic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MEIO)
+:white_medium_square: [ **18/20** ] - [Stochastic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MEIO)
 
-:star: [ **19/20 , 16/20** ] - [Language Processing](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/PL)
+:white_medium_square: [ **19/20 , 16/20** ] - [Language Processing](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/PL)
 
-:star: [ **17/20** ] - [Computer Communications](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CC)
+:white_medium_square: [ **17/20** ] - [Computer Communications](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/CC)
 
 
 ***
