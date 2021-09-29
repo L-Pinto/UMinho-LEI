@@ -14,11 +14,11 @@
 
 :star: [ **20/20 , 15/20 , 20/20** ] - [Deterministic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MDIO)
 
-[ **16/20** ] - [Distributed Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SD)
+:small_orange_diamond: [ **16/20** ] - [Distributed Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SD)
 
-[ **17/20** ] - [Computer Networks](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/RC)
+:small_orange_diamond: [ **17/20** ] - [Computer Networks](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/RC)
 
-[ **18/20 , 19/20** ] - [Numerical Methods and Nonlinear Optimization](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MNOL)
+:small_orange_diamond: [ **18/20 , 19/20** ] - [Numerical Methods and Nonlinear Optimization](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MNOL)
 
 ### Second Semester 
 [ **16/20** ] - [Software Labs IV](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/LI4)
