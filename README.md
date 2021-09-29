@@ -2,7 +2,7 @@
 
 # UMinho-LEI
 :small_orange_diamond: Projects developed during my Software Engineering Bachelor's Degree.
-
+:man_student:
 ***
 
 ### :wavy_dash: THIRD YEAR :wavy_dash:      2020 / 2021 EDITION
