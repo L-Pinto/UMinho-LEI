@@ -1,0 +1,420 @@
+﻿Latitude;Longitude;OBJECTID;PONTO_RECOLHA_FREGUESIA;PONTO_RECOLHA_LOCAL;CONTENTOR_RESÍDUO;CONTENTOR_TIPO;CONTENTOR_CAPACIDADE;CONTENTOR_QT;CONTENTOR_TOTAL_LITROS
+-9,143308809;38,70807879;355;Misericórdia;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataíde);Lixos;CV0090;90;1;90
+-9,143308809;38,70807879;356;Misericórdia;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataíde);Lixos;CV0240;240;7;1680
+-9,143308809;38,70807879;357;Misericórdia;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataíde);Lixos;CV0090;90;1;90
+-9,143308809;38,70807879;358;Misericórdia;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataíde);Papel e Cartão;CV0240;240;6;1440
+-9,143308809;38,70807879;359;Misericórdia;15805: R do Alecrim (Par (->)(26->30): R Ferragial - R Ataíde);Papel e Cartão;CV0090;90;1;90
+-9,143377778;38,70807819;364;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Lixos;CV0240;240;1;240
+-9,143377778;38,70807819;365;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Lixos;CV0140;140;6;840
+-9,143377778;38,70807819;366;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Lixos;CV0120;120;1;120
+-9,143377778;38,70807819;367;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Lixos;CV0090;90;2;180
+-9,143377778;38,70807819;368;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Lixos;CV0240;240;1;240
+-9,143377778;38,70807819;369;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Lixos;CV0140;140;6;840
+-9,143377778;38,70807819;370;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Lixos;CV0120;120;1;120
+-9,143377778;38,70807819;360;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Lixos;CV0090;90;2;180
+-9,143377778;38,70807819;361;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Papel e Cartão;CV0140;140;2;280
+-9,143377778;38,70807819;362;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Papel e Cartão;CV0090;90;1;90
+-9,143377778;38,70807819;363;Misericórdia;15806: R do Alecrim (Impar (27->53)(->): R Ataíde - R Ferragial);Papel e Cartão;CA0090;90;1;90
+-9,143481807;38,70730262;371;Misericórdia;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Lixos;CV0240;240;1;240
+-9,143481807;38,70730262;372;Misericórdia;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Lixos;CV0140;140;3;420
+-9,143481807;38,70730262;373;Misericórdia;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Lixos;CV0240;240;1;240
+-9,143481807;38,70730262;374;Misericórdia;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Lixos;CV0140;140;3;420
+-9,143481807;38,70730262;375;Misericórdia;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Papel e Cartão;CV0240;240;1;240
+-9,143481807;38,70730262;376;Misericórdia;15807: R do Alecrim (Impar (5->25)(->): R Ferragial - Pc Duque da Terceira);Papel e Cartão;CV0140;140;1;140
+-9,142550987;38,70732868;377;Misericórdia;15808: R Corpo Santo (Ambos (->)(10->26): Lg Corpo Santo - Tv Corpo Santo);Lixos;CV0140;140;2;280
+-9,142550987;38,70732868;378;Misericórdia;15808: R Corpo Santo (Ambos (->)(10->26): Lg Corpo Santo - Tv Corpo Santo);Lixos;CV0240;240;4;960
+-9,142550987;38,70732868;379;Misericórdia;15808: R Corpo Santo (Ambos (->)(10->26): Lg Corpo Santo - Tv Corpo Santo);Lixos;CV0140;140;2;280
+-9,142550987;38,70732868;380;Misericórdia;15808: R Corpo Santo (Ambos (->)(10->26): Lg Corpo Santo - Tv Corpo Santo);Lixos;CV0240;240;4;960
+-9,142765961;38,70708361;381;Misericórdia;15809: Tv Corpo Santo (Ambos (->)(->): R Corpo Santo - R Bernardino da Costa);Lixos;CV0140;140;2;280
+-9,142765961;38,70708361;382;Misericórdia;15809: Tv Corpo Santo (Ambos (->)(->): R Corpo Santo - R Bernardino da Costa);Lixos;CV0120;120;1;120
+-9,142622569;38,70669752;383;Misericórdia;15810: Tv Corpo Santo (Ambos (->)(->): R Bernardino da Costa - Cais do Sodré);Lixos;CV0240;240;4;960
+-9,142622569;38,70669752;384;Misericórdia;15810: Tv Corpo Santo (Ambos (->)(->): R Bernardino da Costa - Cais do Sodré);Lixos;CV0240;240;4;960
+-9,142622569;38,70669752;385;Misericórdia;15810: Tv Corpo Santo (Ambos (->)(->): R Bernardino da Costa - Cais do Sodré);Papel e Cartão;CV0240;240;1;240
+-9,142408356;38,70699663;386;Misericórdia;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Lixos;CV0140;140;3;420
+-9,142408356;38,70699663;387;Misericórdia;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Lixos;CV0240;240;4;960
+-9,142408356;38,70699663;388;Misericórdia;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Lixos;CV0140;140;3;420
+-9,142408356;38,70699663;389;Misericórdia;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Lixos;CV0240;240;4;960
+-9,142408356;38,70699663;390;Misericórdia;15811: R Bernardino da Costa (Ambos (7->29)(->22): Lg Corpo Santo - Tv Corpo Santo);Papel e Cartão;CV0240;240;1;240
+-9,143050155;38,70685596;391;Misericórdia;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;CV0140;140;5;700
+-9,143050155;38,70685596;392;Misericórdia;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;CV0240;240;3;720
+-9,143050155;38,70685596;393;Misericórdia;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;CV0120;120;3;360
+-9,143050155;38,70685596;394;Misericórdia;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;CV0140;140;5;700
+-9,143050155;38,70685596;395;Misericórdia;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;CV0240;240;3;720
+-9,143050155;38,70685596;396;Misericórdia;15812: R Bernardino da Costa (Ambos (35->45)(32->54): Tv Corpo Santo - Pc Duque da Terceira);Lixos;CV0120;120;3;360
+-9,151251124;38,70877545;397;Misericórdia;15813: Lg Conde-Barão (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;CV0240;240;10;2400
+-9,151251124;38,70877545;398;Misericórdia;15813: Lg Conde-Barão (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;CV0140;140;7;980
+-9,151251124;38,70877545;399;Misericórdia;15813: Lg Conde-Barão (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;CV0090;90;1;90
+-9,151251124;38,70877545;400;Misericórdia;15813: Lg Conde-Barão (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;CV0240;240;10;2400
+-9,151251124;38,70877545;401;Misericórdia;15813: Lg Conde-Barão (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;CV0140;140;7;980
+-9,151251124;38,70877545;402;Misericórdia;15813: Lg Conde-Barão (Ambos (1->57)(4->50): R da Boavista - Bqr do Duro);Lixos;CV0090;90;1;90
+-9,151789464;38,70863563;406;Misericórdia;15814: Lg Conde-Barão (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;CV0120;120;2;240
+-9,151789464;38,70863563;407;Misericórdia;15814: Lg Conde-Barão (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;CV0140;140;5;700
+-9,151789464;38,70863563;408;Misericórdia;15814: Lg Conde-Barão (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;CV0090;90;1;90
+-9,151789464;38,70863563;409;Misericórdia;15814: Lg Conde-Barão (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;CV0240;240;2;480
+-9,151789464;38,70863563;410;Misericórdia;15814: Lg Conde-Barão (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;CV0120;120;2;240
+-9,151789464;38,70863563;403;Misericórdia;15814: Lg Conde-Barão (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;CV0140;140;5;700
+-9,151789464;38,70863563;404;Misericórdia;15814: Lg Conde-Barão (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;CV0090;90;1;90
+-9,151789464;38,70863563;405;Misericórdia;15814: Lg Conde-Barão (Ambos (25->29)(22->32): Bqr do Duro - R Mastros);Lixos;CV0240;240;2;480
+-9,152018979;38,70860661;411;Misericórdia;15815: Lg Conde-Barão (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;CV0120;120;1;120
+-9,152018979;38,70860661;412;Misericórdia;15815: Lg Conde-Barão (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;CV0140;140;2;280
+-9,152018979;38,70860661;413;Misericórdia;15815: Lg Conde-Barão (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;CV0240;240;1;240
+-9,152018979;38,70860661;414;Misericórdia;15815: Lg Conde-Barão (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;CV0120;120;1;120
+-9,152018979;38,70860661;415;Misericórdia;15815: Lg Conde-Barão (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;CV0140;140;2;280
+-9,152018979;38,70860661;416;Misericórdia;15815: Lg Conde-Barão (Ambos (35->39)(34->38): R Mastros - Tv do Cais do Tojo);Lixos;CV0240;240;1;240
+-9,149105527;38,70907338;417;Misericórdia;15818: Tv Marquês de Sampaio (Ambos (->)(->): R da Boavista - R da Boavista);Lixos;CV0240;240;1;240
+-9,147649761;38,70856359;418;Misericórdia;15819: R da Boavista (Ambos (1->9)(2->32): R São Paulo - Tv Marquês de Sampaio);Lixos;CV0140;140;9;1260
+-9,147649761;38,70856359;419;Misericórdia;15819: R da Boavista (Ambos (1->9)(2->32): R São Paulo - Tv Marquês de Sampaio);Lixos;CV0120;120;2;240
+-9,147649761;38,70856359;420;Misericórdia;15819: R da Boavista (Ambos (1->9)(2->32): R São Paulo - Tv Marquês de Sampaio);Lixos;CV0240;240;3;720
+-9,147649761;38,70856359;421;Misericórdia;15819: R da Boavista (Ambos (1->9)(2->32): R São Paulo - Tv Marquês de Sampaio);Lixos;CV0090;90;2;180
+-9,147649761;38,70856359;422;Misericórdia;15819: R da Boavista (Ambos (1->9)(2->32): R São Paulo - Tv Marquês de Sampaio);Lixos;CV1100;1100;1;1100
+-9,14857178;38,70872672;423;Misericórdia;15820: R da Boavista (Ambos (->)(34->84): Tv Marquês de Sampaio - Bqr dos Ferreiros);Lixos;CV0140;140;6;840
+-9,14857178;38,70872672;424;Misericórdia;15820: R da Boavista (Ambos (->)(34->84): Tv Marquês de Sampaio - Bqr dos Ferreiros);Lixos;CV0240;240;2;480
+-9,14857178;38,70872672;425;Misericórdia;15820: R da Boavista (Ambos (->)(34->84): Tv Marquês de Sampaio - Bqr dos Ferreiros);Lixos;CV0090;90;1;90
+-9,149113446;38,7088211;426;Misericórdia;15821: R da Boavista (Ambos (45->49)(86->90): Bqr dos Ferreiros - Tv Marquês de Sampaio);Lixos;CV0140;140;2;280
+-9,149113446;38,7088211;427;Misericórdia;15821: R da Boavista (Ambos (45->49)(86->90): Bqr dos Ferreiros - Tv Marquês de Sampaio);Lixos;CV0240;240;2;480
+-9,149113446;38,7088211;428;Misericórdia;15821: R da Boavista (Ambos (45->49)(86->90): Bqr dos Ferreiros - Tv Marquês de Sampaio);Lixos;CV0090;90;1;90
+-9,149493546;38,70887183;429;Misericórdia;15822: R da Boavista (Ambos (51->67)(96->118): Tv Marquês de Sampaio - Pto Galega (Rua da Boavista, 118));Lixos;CV0090;90;2;180
+-9,149493546;38,70887183;430;Misericórdia;15822: R da Boavista (Ambos (51->67)(96->118): Tv Marquês de Sampaio - Pto Galega (Rua da Boavista, 118));Lixos;CV0120;120;1;120
+-9,149493546;38,70887183;431;Misericórdia;15822: R da Boavista (Ambos (51->67)(96->118): Tv Marquês de Sampaio - Pto Galega (Rua da Boavista, 118));Lixos;CV0140;140;1;140
+-9,149493546;38,70887183;432;Misericórdia;15822: R da Boavista (Ambos (51->67)(96->118): Tv Marquês de Sampaio - Pto Galega (Rua da Boavista, 118));Lixos;CV0240;240;3;720
+-9,150183884;38,70891086;433;Misericórdia;15823: R da Boavista (Ambos (69->83)(120->176): Pto Galega (Rua da Boavista, 118) - R Instituto Industrial);Lixos;CV0140;140;12;1680
+-9,150183884;38,70891086;434;Misericórdia;15823: R da Boavista (Ambos (69->83)(120->176): Pto Galega (Rua da Boavista, 118) - R Instituto Industrial);Lixos;CV0090;90;3;270
+-9,150183884;38,70891086;435;Misericórdia;15823: R da Boavista (Ambos (69->83)(120->176): Pto Galega (Rua da Boavista, 118) - R Instituto Industrial);Lixos;CV0240;240;13;3120
+-9,150183884;38,70891086;436;Misericórdia;15823: R da Boavista (Ambos (69->83)(120->176): Pto Galega (Rua da Boavista, 118) - R Instituto Industrial);Lixos;CV0120;120;1;120
+-9,150793117;38,70890555;437;Misericórdia;15824: R da Boavista (Ambos (->93)(180->186): R Instituto Industrial - Lg Conde-Barão);Lixos;CV0140;140;2;280
+-9,150793117;38,70890555;438;Misericórdia;15824: R da Boavista (Ambos (->93)(180->186): R Instituto Industrial - Lg Conde-Barão);Lixos;CV0120;120;1;120
+-9,150793117;38,70890555;439;Misericórdia;15824: R da Boavista (Ambos (->93)(180->186): R Instituto Industrial - Lg Conde-Barão);Lixos;CV0090;90;1;90
+-9,152060348;38,70828196;440;Misericórdia;15825: Tv do Cais do Tojo (Ambos (->)(->): R Cais do Tojo - R Cais do Tojo);Lixos;CV0140;140;1;140
+-9,152472114;38,70813424;441;Misericórdia;15827: R Cais do Tojo (Ambos (33->57)(34->62): Av Dom Carlos I - Tv do Cais do Tojo);Lixos;CV0240;240;8;1920
+-9,152472114;38,70813424;442;Misericórdia;15827: R Cais do Tojo (Ambos (33->57)(34->62): Av Dom Carlos I - Tv do Cais do Tojo);Lixos;CV0120;120;1;120
+-9,151783576;38,70822132;443;Misericórdia;15828: R Cais do Tojo (Ambos (1->29)(10->30): Tv do Cais do Tojo - Bqr do Duro);Lixos;CV0090;90;1;90
+-9,151783576;38,70822132;444;Misericórdia;15828: R Cais do Tojo (Ambos (1->29)(10->30): Tv do Cais do Tojo - Bqr do Duro);Lixos;CV0120;120;1;120
+-9,151783576;38,70822132;445;Misericórdia;15828: R Cais do Tojo (Ambos (1->29)(10->30): Tv do Cais do Tojo - Bqr do Duro);Lixos;CV0140;140;3;420
+-9,151783576;38,70822132;446;Misericórdia;15828: R Cais do Tojo (Ambos (1->29)(10->30): Tv do Cais do Tojo - Bqr do Duro);Lixos;CV0240;240;2;480
+-9,151544743;38,70840356;447;Misericórdia;15830: Bqr do Duro (Ambos (->)(->): R Cais do Tojo - R Cais do Tojo);Lixos;CV0240;240;5;1200
+-9,151388528;38,70792751;448;Misericórdia;15831: Bqr do Duro (Ambos (45->59)(34->54): R Cais do Tojo - R Dom Luís I);Lixos;CV0120;120;2;240
+-9,151388528;38,70792751;449;Misericórdia;15831: Bqr do Duro (Ambos (45->59)(34->54): R Cais do Tojo - R Dom Luís I);Lixos;CV0090;90;1;90
+-9,151388528;38,70792751;450;Misericórdia;15831: Bqr do Duro (Ambos (45->59)(34->54): R Cais do Tojo - R Dom Luís I);Lixos;CV0140;140;2;280
+-9,151388528;38,70792751;451;Misericórdia;15831: Bqr do Duro (Ambos (45->59)(34->54): R Cais do Tojo - R Dom Luís I);Lixos;CV0240;240;3;720
+-9,147513949;38,71033931;452;Misericórdia;15832: Tv Santa Catarina, 4-6;Lixos;CV0240;240;1;240
+-9,147513949;38,71033931;453;Misericórdia;15832: Tv Santa Catarina, 4-6;Lixos;CV0240;240;1;240
+-9,147513949;38,71033931;454;Misericórdia;15832: Tv Santa Catarina, 4-6;Vidro;CV0240;240;1;240
+-9,148566019;38,70994283;455;Misericórdia;15833: R Ferreiros a Santa Catarina, 20;Lixos;CV0240;240;3;720
+-9,148566019;38,70994283;456;Misericórdia;15833: R Ferreiros a Santa Catarina, 20;Lixos;CV0240;240;3;720
+-9,150464329;38,70680059;457;Misericórdia;15834: R Instituto Industrial (Ambos (1->5)(2->14): Av 24 de Julho - R Dom Luís I);Lixos;CV0140;140;1;140
+-9,150464329;38,70680059;458;Misericórdia;15834: R Instituto Industrial (Ambos (1->5)(2->14): Av 24 de Julho - R Dom Luís I);Lixos;CV0240;240;8;1920
+-9,15054864;38,70788079;459;Misericórdia;15836: R Instituto Industrial (Ambos (7->9)(16->22): R Dom Luís I - R da Boavista);Lixos;CV0240;240;23;5520
+-9,15054864;38,70788079;460;Misericórdia;15836: R Instituto Industrial (Ambos (7->9)(16->22): R Dom Luís I - R da Boavista);Lixos;CV0140;140;1;140
+-9,148518124;38,70980813;461;Misericórdia;15838: R Santa Catarina, 19;Lixos;CV0240;240;4;960
+-9,148518124;38,70980813;462;Misericórdia;15838: R Santa Catarina, 19;Lixos;CV0240;240;4;960
+-9,147044252;38,70801938;463;Misericórdia;15841: R Moeda (Ambos (1->11)(2->6): R São Paulo - Pc Dom Luís I);Lixos;CV0240;240;9;2160
+-9,147044252;38,70801938;464;Misericórdia;15841: R Moeda (Ambos (1->11)(2->6): R São Paulo - Pc Dom Luís I);Lixos;CV0140;140;5;700
+-9,147044252;38,70801938;465;Misericórdia;15841: R Moeda (Ambos (1->11)(2->6): R São Paulo - Pc Dom Luís I);Lixos;CV0240;240;9;2160
+-9,147044252;38,70801938;466;Misericórdia;15841: R Moeda (Ambos (1->11)(2->6): R São Paulo - Pc Dom Luís I);Lixos;CV0140;140;5;700
+-9,146144218;38,70778398;467;Misericórdia;15842: Tv Carvalho (Ambos (->)(->): R Ribeira Nova - Tv Carvalho);Lixos;CV0090;90;1;90
+-9,146144218;38,70778398;468;Misericórdia;15842: Tv Carvalho (Ambos (->)(->): R Ribeira Nova - Tv Carvalho);Lixos;CV0090;90;1;90
+-9,145639847;38,70788744;469;Misericórdia;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc São Paulo);Lixos;CV0090;90;1;90
+-9,145639847;38,70788744;470;Misericórdia;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc São Paulo);Lixos;CV0140;140;4;560
+-9,145639847;38,70788744;471;Misericórdia;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc São Paulo);Lixos;CV0240;240;2;480
+-9,145639847;38,70788744;472;Misericórdia;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc São Paulo);Papel e Cartão;CV0090;90;1;90
+-9,145639847;38,70788744;473;Misericórdia;15843: Tv Carvalho (Ambos (->)(->): Tv Carvalho - Pc São Paulo);Papel e Cartão;CV0140;140;2;280
+-9,145988636;38,70816366;474;Misericórdia;15844: Tv Carvalho (Ambos (->)(->): Tv Carvalho - R São Paulo);Lixos;CV0140;140;1;140
+-9,145988636;38,70816366;475;Misericórdia;15844: Tv Carvalho (Ambos (->)(->): Tv Carvalho - R São Paulo);Lixos;CV0140;140;1;140
+-9,151993526;38,70762498;476;Misericórdia;15845: R Dom Luís I (Ambos (43->55)(30->42): Av Dom Carlos I - Bqr do Duro);Lixos;CV0120;120;1;120
+-9,151993526;38,70762498;477;Misericórdia;15845: R Dom Luís I (Ambos (43->55)(30->42): Av Dom Carlos I - Bqr do Duro);Lixos;CV0240;240;20;4800
+-9,150935625;38,70760718;478;Misericórdia;15846: R Dom Luís I (Ambos (23->27)(28->28): Bqr do Duro - R Instituto Industrial);Lixos;CV0240;240;5;1200
+-9,149935581;38,7076159;479;Misericórdia;15847: R Dom Luís I (Ambos (19->21)(16->22): R Instituto Industrial - Bqr dos Ferreiros);Lixos;CV0240;240;18;4320
+-9,149935581;38,7076159;480;Misericórdia;15847: R Dom Luís I (Ambos (19->21)(16->22): R Instituto Industrial - Bqr dos Ferreiros);Lixos;CV0120;120;1;120
+-9,148290555;38,70754014;481;Misericórdia;15848: R Dom Luís I (Ambos (1->7)(2->12): Bqr dos Ferreiros - Pc Dom Luís I);Lixos;CV0240;240;13;3120
+-9,148290555;38,70754014;482;Misericórdia;15848: R Dom Luís I (Ambos (1->7)(2->12): Bqr dos Ferreiros - Pc Dom Luís I);Lixos;CV1100;1100;4;4400
+-9,148290555;38,70754014;483;Misericórdia;15848: R Dom Luís I (Ambos (1->7)(2->12): Bqr dos Ferreiros - Pc Dom Luís I);Lixos;CV0120;120;1;120
+-9,148290555;38,70754014;484;Misericórdia;15848: R Dom Luís I (Ambos (1->7)(2->12): Bqr dos Ferreiros - Pc Dom Luís I);Lixos;CV0090;90;1;90
+-9,147146202;38,70709969;485;Misericórdia;15849: Pc Dom Luís I (Ambos (1->27)(->): R Dom Luís I - Av 24 de Julho);Lixos;CV0240;240;4;960
+-9,148353992;38,71039507;486;Misericórdia;15850: Tv Condessa do Rio, Fte 3;Lixos;CV0240;240;3;720
+-9,148353992;38,71039507;487;Misericórdia;15850: Tv Condessa do Rio, Fte 3;Lixos;CV0240;240;3;720
+-9,148353992;38,71039507;488;Misericórdia;15850: Tv Condessa do Rio, Fte 3;Embalagens;CV0240;240;1;240
+-9,146715901;38,70756283;489;Misericórdia;15851: Pc Dom Luís I (Ambos (29->34)(->): R Ribeira Nova - R Dom Luís I);Lixos;CV0240;240;1;240
+-9,146715901;38,70756283;490;Misericórdia;15851: Pc Dom Luís I (Ambos (29->34)(->): R Ribeira Nova - R Dom Luís I);Lixos;CV0140;140;2;280
+-9,146715901;38,70756283;491;Misericórdia;15851: Pc Dom Luís I (Ambos (29->34)(->): R Ribeira Nova - R Dom Luís I);Papel e Cartão;CV0140;140;2;280
+-9,144930015;38,70728106;494;Misericórdia;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amélia);Lixos;CV0140;140;1;140
+-9,144930015;38,70728106;495;Misericórdia;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amélia);Lixos;CV0120;120;1;120
+-9,144930015;38,70728106;496;Misericórdia;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amélia);Lixos;CV0090;90;1;90
+-9,144930015;38,70728106;492;Misericórdia;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amélia);Lixos;CV0240;240;1;240
+-9,144930015;38,70728106;493;Misericórdia;15852: R Ribeira Nova (Ambos (1->)(2->20): R Remolares - R Instituto Dona Amélia);Papel e Cartão;CV0240;240;1;240
+-9,145853665;38,7075613;497;Misericórdia;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amélia - Pc Dom Luís I);Lixos;CV0120;120;1;120
+-9,145853665;38,7075613;498;Misericórdia;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amélia - Pc Dom Luís I);Lixos;CV0140;140;3;420
+-9,145853665;38,7075613;499;Misericórdia;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amélia - Pc Dom Luís I);Lixos;CV0090;90;1;90
+-9,145853665;38,7075613;500;Misericórdia;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amélia - Pc Dom Luís I);Lixos;CV0240;240;2;480
+-9,145853665;38,7075613;501;Misericórdia;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amélia - Pc Dom Luís I);Papel e Cartão;CV0340;340;2;680
+-9,145853665;38,7075613;502;Misericórdia;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amélia - Pc Dom Luís I);Papel e Cartão;CV0090;90;1;90
+-9,145853665;38,7075613;503;Misericórdia;15853: R Ribeira Nova (Ambos (->)(22->64): R Instituto Dona Amélia - Pc Dom Luís I);Papel e Cartão;CV0240;240;3;720
+-9,14350797;38,70752758;504;Misericórdia;15855: R São Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;CV0240;240;3;720
+-9,14350797;38,70752758;505;Misericórdia;15855: R São Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;CV0120;120;1;120
+-9,14350797;38,70752758;506;Misericórdia;15855: R São Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;CV0140;140;5;700
+-9,14350797;38,70752758;507;Misericórdia;15855: R São Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;CV0240;240;3;720
+-9,14350797;38,70752758;508;Misericórdia;15855: R São Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;CV0120;120;1;120
+-9,14350797;38,70752758;509;Misericórdia;15855: R São Paulo (Par (->)(2->58): R Corpo Santo - R Flores);Lixos;CV0140;140;5;700
+-9,144154727;38,70773817;510;Misericórdia;15856: R São Paulo (Par (->)(60->82): R Flores - Pc São Paulo);Lixos;CV0240;240;4;960
+-9,144154727;38,70773817;511;Misericórdia;15856: R São Paulo (Par (->)(60->82): R Flores - Pc São Paulo);Lixos;CV0140;140;2;280
+-9,144154727;38,70773817;512;Misericórdia;15856: R São Paulo (Par (->)(60->82): R Flores - Pc São Paulo);Lixos;CV0120;120;1;120
+-9,144154727;38,70773817;513;Misericórdia;15856: R São Paulo (Par (->)(60->82): R Flores - Pc São Paulo);Lixos;CV0240;240;4;960
+-9,144154727;38,70773817;514;Misericórdia;15856: R São Paulo (Par (->)(60->82): R Flores - Pc São Paulo);Lixos;CV0140;140;2;280
+-9,144154727;38,70773817;515;Misericórdia;15856: R São Paulo (Par (->)(60->82): R Flores - Pc São Paulo);Lixos;CV0120;120;1;120
+-9,144188704;38,70770185;516;Misericórdia;15857: R São Paulo (Impar (49->69)(->): Pc São Paulo - Tv dos Remolares);Lixos;CV0240;240;1;240
+-9,144188704;38,70770185;517;Misericórdia;15857: R São Paulo (Impar (49->69)(->): Pc São Paulo - Tv dos Remolares);Lixos;CV0140;140;1;140
+-9,144188704;38,70770185;518;Misericórdia;15857: R São Paulo (Impar (49->69)(->): Pc São Paulo - Tv dos Remolares);Lixos;CV0240;240;1;240
+-9,144188704;38,70770185;519;Misericórdia;15857: R São Paulo (Impar (49->69)(->): Pc São Paulo - Tv dos Remolares);Lixos;CV0140;140;1;140
+-9,144188704;38,70770185;520;Misericórdia;15857: R São Paulo (Impar (49->69)(->): Pc São Paulo - Tv dos Remolares);Papel e Cartão;CV0140;140;1;140
+-9,14351883;38,70748245;521;Misericórdia;15858: R São Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;CV0090;90;1;90
+-9,14351883;38,70748245;522;Misericórdia;15858: R São Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;CV0140;140;3;420
+-9,14351883;38,70748245;523;Misericórdia;15858: R São Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;CV0240;240;1;240
+-9,14351883;38,70748245;524;Misericórdia;15858: R São Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;CV0090;90;1;90
+-9,14351883;38,70748245;525;Misericórdia;15858: R São Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;CV0140;140;3;420
+-9,14351883;38,70748245;526;Misericórdia;15858: R São Paulo (Impar (1->47)(->): Tv dos Remolares - Tv Corpo Santo);Lixos;CV0240;240;1;240
+-9,144754745;38,70789511;527;Misericórdia;15859: R São Paulo (Ambos (->)(88->118): Pc São Paulo - Pc São Paulo);Lixos;CV0090;90;3;270
+-9,144754745;38,70789511;528;Misericórdia;15859: R São Paulo (Ambos (->)(88->118): Pc São Paulo - Pc São Paulo);Lixos;CV0140;140;5;700
+-9,144754745;38,70789511;529;Misericórdia;15859: R São Paulo (Ambos (->)(88->118): Pc São Paulo - Pc São Paulo);Lixos;CV0240;240;2;480
+-9,144754745;38,70789511;530;Misericórdia;15859: R São Paulo (Ambos (->)(88->118): Pc São Paulo - Pc São Paulo);Lixos;CV0090;90;3;270
+-9,144754745;38,70789511;531;Misericórdia;15859: R São Paulo (Ambos (->)(88->118): Pc São Paulo - Pc São Paulo);Lixos;CV0140;140;5;700
+-9,144754745;38,70789511;532;Misericórdia;15859: R São Paulo (Ambos (->)(88->118): Pc São Paulo - Pc São Paulo);Lixos;CV0240;240;2;480
+-9,144754745;38,70789511;533;Misericórdia;15859: R São Paulo (Ambos (->)(88->118): Pc São Paulo - Pc São Paulo);Papel e Cartão;CV0140;140;1;140
+-9,145528588;38,70814963;534;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Lixos;CV0090;90;3;270
+-9,145528588;38,70814963;535;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Lixos;CV0240;240;3;720
+-9,145528588;38,70814963;536;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Lixos;CV0140;140;11;1540
+-9,145528588;38,70814963;537;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Lixos;CV0120;120;2;240
+-9,145528588;38,70814963;538;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Lixos;CV0090;90;3;270
+-9,145528588;38,70814963;539;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Lixos;CV0240;240;3;720
+-9,145528588;38,70814963;540;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Lixos;CV0140;140;11;1540
+-9,145528588;38,70814963;541;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Lixos;CV0120;120;2;240
+-9,145528588;38,70814963;542;Misericórdia;15860: R São Paulo (Ambos (71->77)(120->178): Pc São Paulo - Tv Carvalho);Papel e Cartão;CV0240;240;2;480
+-9,146060151;38,70834319;543;Misericórdia;15861: R São Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;CV0140;140;5;700
+-9,146060151;38,70834319;544;Misericórdia;15861: R São Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;CV0090;90;2;180
+-9,146060151;38,70834319;545;Misericórdia;15861: R São Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;CV0120;120;1;120
+-9,146060151;38,70834319;546;Misericórdia;15861: R São Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;CV0140;140;5;700
+-9,146060151;38,70834319;547;Misericórdia;15861: R São Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;CV0090;90;2;180
+-9,146060151;38,70834319;548;Misericórdia;15861: R São Paulo (Ambos (79->87)(180->198): Tv Carvalho - Bc da Moeda);Lixos;CV0120;120;1;120
+-9,146348797;38,70843077;549;Misericórdia;15862: R São Paulo (Ambos (89->)(200->216): Bc da Moeda - Cc da Bica Grande);Lixos;CV0090;90;1;90
+-9,146348797;38,70843077;550;Misericórdia;15862: R São Paulo (Ambos (89->)(200->216): Bc da Moeda - Cc da Bica Grande);Lixos;CV0140;140;2;280
+-9,146348797;38,70843077;551;Misericórdia;15862: R São Paulo (Ambos (89->)(200->216): Bc da Moeda - Cc da Bica Grande);Lixos;CV0090;90;1;90
+-9,146348797;38,70843077;552;Misericórdia;15862: R São Paulo (Ambos (89->)(200->216): Bc da Moeda - Cc da Bica Grande);Lixos;CV0140;140;2;280
+-9,14664843;38,70848221;553;Misericórdia;15863: R São Paulo (Ambos (->)(218->226): Cc da Bica Grande - R Moeda);Lixos;CV0240;240;1;240
+-9,14664843;38,70848221;554;Misericórdia;15863: R São Paulo (Ambos (->)(218->226): Cc da Bica Grande - R Moeda);Lixos;CV0140;140;1;140
+-9,14664843;38,70848221;555;Misericórdia;15863: R São Paulo (Ambos (->)(218->226): Cc da Bica Grande - R Moeda);Lixos;CV0240;240;1;240
+-9,14664843;38,70848221;556;Misericórdia;15863: R São Paulo (Ambos (->)(218->226): Cc da Bica Grande - R Moeda);Lixos;CV0140;140;1;140
+-9,146958664;38,70847051;563;Misericórdia;15864: R São Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;CV0240;240;4;960
+-9,146958664;38,70847051;564;Misericórdia;15864: R São Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;CV0140;140;4;560
+-9,146958664;38,70847051;557;Misericórdia;15864: R São Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;CV0090;90;1;90
+-9,146958664;38,70847051;558;Misericórdia;15864: R São Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;CV0120;120;1;120
+-9,146958664;38,70847051;559;Misericórdia;15864: R São Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;CV0240;240;4;960
+-9,146958664;38,70847051;560;Misericórdia;15864: R São Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;CV0140;140;4;560
+-9,146958664;38,70847051;561;Misericórdia;15864: R São Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;CV0090;90;1;90
+-9,146958664;38,70847051;562;Misericórdia;15864: R São Paulo (Ambos (91->129)(228->260): R Moeda - R da Boavista);Lixos;CV0120;120;1;120
+-9,144288217;38,70742174;565;Misericórdia;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc São Paulo - Tv dos Remolares);Lixos;CV0120;120;1;120
+-9,144288217;38,70742174;566;Misericórdia;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc São Paulo - Tv dos Remolares);Lixos;CV0140;140;2;280
+-9,144288217;38,70742174;567;Misericórdia;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc São Paulo - Tv dos Remolares);Lixos;CV0240;240;4;960
+-9,144288217;38,70742174;568;Misericórdia;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc São Paulo - Tv dos Remolares);Lixos;CV0120;120;1;120
+-9,144288217;38,70742174;569;Misericórdia;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc São Paulo - Tv dos Remolares);Lixos;CV0140;140;2;280
+-9,144288217;38,70742174;570;Misericórdia;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc São Paulo - Tv dos Remolares);Lixos;CV0240;240;4;960
+-9,144288217;38,70742174;571;Misericórdia;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc São Paulo - Tv dos Remolares);Papel e Cartão;CV0140;140;1;140
+-9,144288217;38,70742174;572;Misericórdia;15865: R Nova do Carvalho (Ambos (63->81)(58->78): Pc São Paulo - Tv dos Remolares);Papel e Cartão;CV0240;240;1;240
+-9,143814518;38,7072547;573;Misericórdia;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Lixos;CV0140;140;1;140
+-9,143814518;38,7072547;574;Misericórdia;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Lixos;CV0240;240;11;2640
+-9,143814518;38,7072547;575;Misericórdia;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Lixos;CV0140;140;1;140
+-9,143814518;38,7072547;576;Misericórdia;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Lixos;CV0240;240;11;2640
+-9,143814518;38,7072547;577;Misericórdia;15866: R Nova do Carvalho (Ambos (33->55)(26->56): Tv dos Remolares - R do Alecrim);Papel e Cartão;CV0240;240;2;480
+-9,143192661;38,70717901;578;Misericórdia;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;CV0090;90;2;180
+-9,143192661;38,70717901;579;Misericórdia;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;CV0240;240;3;720
+-9,143192661;38,70717901;580;Misericórdia;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;CV0140;140;3;420
+-9,143192661;38,70717901;581;Misericórdia;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;CV0090;90;2;180
+-9,143192661;38,70717901;582;Misericórdia;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;CV0240;240;3;720
+-9,143192661;38,70717901;583;Misericórdia;15867: R Nova do Carvalho (Ambos (1->29)(2->24): R do Alecrim - Tv Corpo Santo);Lixos;CV0140;140;3;420
+-9,144027836;38,70689253;584;Misericórdia;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0090;90;1;90
+-9,144027836;38,70689253;585;Misericórdia;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0240;240;5;1200
+-9,144027836;38,70689253;586;Misericórdia;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0140;140;5;700
+-9,144027836;38,70689253;587;Misericórdia;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0090;90;1;90
+-9,144027836;38,70689253;588;Misericórdia;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0240;240;5;1200
+-9,144027836;38,70689253;589;Misericórdia;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0140;140;5;700
+-9,144027836;38,70689253;590;Misericórdia;15868: R Remolares (Ambos (1->23)(2->26): Pc Duque da Terceira - Tv dos Remolares);Papel e Cartão;CV0140;140;2;280
+-9,144478925;38,7070868;591;Misericórdia;15869: R Remolares (Ambos (25->41)(28->48): Tv dos Remolares - Tv Ribeira Nova);Lixos;CV0140;140;4;560
+-9,144478925;38,7070868;592;Misericórdia;15869: R Remolares (Ambos (25->41)(28->48): Tv dos Remolares - Tv Ribeira Nova);Lixos;CV0120;120;2;240
+-9,144478925;38,7070868;593;Misericórdia;15869: R Remolares (Ambos (25->41)(28->48): Tv dos Remolares - Tv Ribeira Nova);Lixos;CV0140;140;4;560
+-9,144478925;38,7070868;594;Misericórdia;15869: R Remolares (Ambos (25->41)(28->48): Tv dos Remolares - Tv Ribeira Nova);Lixos;CV0120;120;2;240
+-9,144416495;38,70673604;602;Misericórdia;15871: Tv dos Remolares (Ambos (->)(->): Av 24 de Julho - R Remolares);Lixos;CV0240;240;1;240
+-9,144416495;38,70673604;603;Misericórdia;15871: Tv dos Remolares (Ambos (->)(->): Av 24 de Julho - R Remolares);Lixos;CV0240;240;1;240
+-9,144169838;38,70717956;611;Misericórdia;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;CV0140;140;2;280
+-9,144169838;38,70717956;612;Misericórdia;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;CV0240;240;1;240
+-9,144169838;38,70717956;613;Misericórdia;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;CV0120;120;1;120
+-9,144169838;38,70717956;614;Misericórdia;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;CV0140;140;2;280
+-9,144169838;38,70717956;615;Misericórdia;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;CV0240;240;1;240
+-9,144169838;38,70717956;616;Misericórdia;15873: Tv dos Remolares (Ambos (->)(->): R Nova do Carvalho - R Nova do Carvalho);Lixos;CV0120;120;1;120
+-9,14401336;38,70749619;617;Misericórdia;15875: Tv dos Remolares (Ambos (->)(->): R São Paulo - R Nova do Carvalho);Lixos;CV0090;90;1;90
+-9,14401336;38,70749619;618;Misericórdia;15875: Tv dos Remolares (Ambos (->)(->): R São Paulo - R Nova do Carvalho);Lixos;CV0240;240;1;240
+-9,14401336;38,70749619;619;Misericórdia;15875: Tv dos Remolares (Ambos (->)(->): R São Paulo - R Nova do Carvalho);Lixos;CV0140;140;1;140
+-9,14401336;38,70749619;620;Misericórdia;15875: Tv dos Remolares (Ambos (->)(->): R São Paulo - R Nova do Carvalho);Lixos;CV0090;90;1;90
+-9,14401336;38,70749619;621;Misericórdia;15875: Tv dos Remolares (Ambos (->)(->): R São Paulo - R Nova do Carvalho);Lixos;CV0240;240;1;240
+-9,14401336;38,70749619;622;Misericórdia;15875: Tv dos Remolares (Ambos (->)(->): R São Paulo - R Nova do Carvalho);Lixos;CV0140;140;1;140
+-9,144047329;38,70582944;623;Misericórdia;15876: Cais do Sodré (Ambos (->)(8->): Av 24 de Julho - R Cintura (Santos));Lixos;CV0240;240;7;1680
+-9,143242333;38,70580939;624;Misericórdia;15877: Cais do Sodré (Ambos (->)(->): R Cintura (Santos) - Pc Duque da Terceira);Lixos;CV0240;240;1;240
+-9,142814171;38,70642562;625;Misericórdia;15878: Cais do Sodré (Ambos (->)(10->46): Pc Duque da Terceira - Tv Corpo Santo);Lixos;CV0240;240;1;240
+-9,142814171;38,70642562;626;Misericórdia;15878: Cais do Sodré (Ambos (->)(10->46): Pc Duque da Terceira - Tv Corpo Santo);Lixos;CV0140;140;1;140
+-9,142814171;38,70642562;627;Misericórdia;15878: Cais do Sodré (Ambos (->)(10->46): Pc Duque da Terceira - Tv Corpo Santo);Lixos;CV0240;240;1;240
+-9,142814171;38,70642562;628;Misericórdia;15878: Cais do Sodré (Ambos (->)(10->46): Pc Duque da Terceira - Tv Corpo Santo);Lixos;CV0140;140;1;140
+-9,142229849;38,70656579;629;Misericórdia;15879: Cais do Sodré (Ambos (->)(2->16): Tv Corpo Santo - Lg Corpo Santo);Lixos;CV0140;140;2;280
+-9,142229849;38,70656579;630;Misericórdia;15879: Cais do Sodré (Ambos (->)(2->16): Tv Corpo Santo - Lg Corpo Santo);Lixos;CV0140;140;2;280
+-9,142229849;38,70656579;631;Misericórdia;15879: Cais do Sodré (Ambos (->)(2->16): Tv Corpo Santo - Lg Corpo Santo);Papel e Cartão;CV0140;140;1;140
+-9,146220062;38,70826974;632;Misericórdia;15880: Bc da Moeda (Ambos (->)(4->6): R São Paulo - R São Paulo);Lixos;CV0090;90;1;90
+-9,146220062;38,70826974;633;Misericórdia;15880: Bc da Moeda (Ambos (->)(4->6): R São Paulo - R São Paulo);Lixos;CV0090;90;1;90
+-9,149564432;38,70900633;634;Misericórdia;15881: Pto Galega (Rua da Boavista, 118) (Ambos (->)(18->): R da Boavista - R da Boavista);Lixos;CV0240;240;1;240
+-9,150599493;38,70903335;635;Misericórdia;15882: Bc da Boavista (Ambos (->)(4->10): R da Boavista - R da Boavista);Lixos;CV0140;140;1;140
+-9,150599493;38,70903335;636;Misericórdia;15882: Bc da Boavista (Ambos (->)(4->10): R da Boavista - R da Boavista);Lixos;CV0090;90;1;90
+-9,144620547;38,7073468;637;Misericórdia;15883: Tv Ribeira Nova (Ambos (->)(->): R Remolares - R Nova do Carvalho);Lixos;CV0090;90;1;90
+-9,144620547;38,7073468;638;Misericórdia;15883: Tv Ribeira Nova (Ambos (->)(->): R Remolares - R Nova do Carvalho);Lixos;CV0090;90;1;90
+-9,144764004;38,70692219;639;Misericórdia;15884: Pc Ribeira Nova (Ambos (->)(2->18): Av 24 de Julho - R Ribeira Nova);Lixos;CV0240;240;1;240
+-9,144764004;38,70692219;640;Misericórdia;15884: Pc Ribeira Nova (Ambos (->)(2->18): Av 24 de Julho - R Ribeira Nova);Lixos;CV0240;240;1;240
+-9,144764004;38,70692219;641;Misericórdia;15884: Pc Ribeira Nova (Ambos (->)(2->18): Av 24 de Julho - R Ribeira Nova);Papel e Cartão;CA1100;1100;1;1100
+-9,145088222;38,70790123;642;Misericórdia;15885: Pc São Paulo (Ambos (->)(->): R São Paulo - Tv Carvalho);Lixos;CV0240;240;1;240
+-9,145088222;38,70790123;643;Misericórdia;15885: Pc São Paulo (Ambos (->)(->): R São Paulo - Tv Carvalho);Lixos;CV0240;240;1;240
+-9,144888868;38,70762372;644;Misericórdia;15886: Pc São Paulo (Ambos (1->9)(4->8): Tv Carvalho - Tv Ribeira Nova);Lixos;CV0140;140;4;560
+-9,144888868;38,70762372;645;Misericórdia;15886: Pc São Paulo (Ambos (1->9)(4->8): Tv Carvalho - Tv Ribeira Nova);Lixos;CV0240;240;1;240
+-9,144888868;38,70762372;646;Misericórdia;15886: Pc São Paulo (Ambos (1->9)(4->8): Tv Carvalho - Tv Ribeira Nova);Papel e Cartão;CV0140;140;1;140
+-9,144475184;38,70763631;647;Misericórdia;15887: Pc São Paulo (Ambos (17->19)(16->18): Tv Ribeira Nova - R São Paulo);Lixos;CV0240;240;1;240
+-9,144475184;38,70763631;648;Misericórdia;15887: Pc São Paulo (Ambos (17->19)(16->18): Tv Ribeira Nova - R São Paulo);Lixos;CV0240;240;1;240
+-9,143298848;38,70655655;649;Misericórdia;15888: Pc Duque da Terceira (Ambos (->)(24->): Cais do Sodré - R Bernardino da Costa);Lixos;CV0240;240;2;480
+-9,143298848;38,70655655;650;Misericórdia;15888: Pc Duque da Terceira (Ambos (->)(24->): Cais do Sodré - R Bernardino da Costa);Papel e Cartão;CV0240;240;1;240
+-9,143404712;38,70672678;651;Misericórdia;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;CV0140;140;2;280
+-9,143404712;38,70672678;652;Misericórdia;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;CV0090;90;1;90
+-9,143404712;38,70672678;653;Misericórdia;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;CV0120;120;1;120
+-9,143404712;38,70672678;654;Misericórdia;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;CV0140;140;2;280
+-9,143404712;38,70672678;655;Misericórdia;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;CV0090;90;1;90
+-9,143404712;38,70672678;656;Misericórdia;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Lixos;CV0120;120;1;120
+-9,143404712;38,70672678;657;Misericórdia;15889: Pc Duque da Terceira (Ambos (15->19)(14->18): R Bernardino da Costa - R do Alecrim);Papel e Cartão;CV0140;140;2;280
+-9,143611743;38,706734;658;Misericórdia;15890: Pc Duque da Terceira (Ambos (9->13)(->): R do Alecrim - R Remolares);Lixos;CV0090;90;1;90
+-9,143611743;38,706734;659;Misericórdia;15890: Pc Duque da Terceira (Ambos (9->13)(->): R do Alecrim - R Remolares);Lixos;CV0140;140;4;560
+-9,143611743;38,706734;660;Misericórdia;15890: Pc Duque da Terceira (Ambos (9->13)(->): R do Alecrim - R Remolares);Lixos;CV0090;90;1;90
+-9,143611743;38,706734;661;Misericórdia;15890: Pc Duque da Terceira (Ambos (9->13)(->): R do Alecrim - R Remolares);Lixos;CV0140;140;4;560
+-9,143759014;38,70657959;662;Misericórdia;15891: Pc Duque da Terceira (Ambos (1->)(2->4): R Remolares - Av 24 de Julho);Lixos;CV0140;140;2;280
+-9,143759014;38,70657959;663;Misericórdia;15891: Pc Duque da Terceira (Ambos (1->)(2->4): R Remolares - Av 24 de Julho);Lixos;CV0140;140;2;280
+-9,143759014;38,70657959;664;Misericórdia;15891: Pc Duque da Terceira (Ambos (1->)(2->4): R Remolares - Av 24 de Julho);Papel e Cartão;CV0240;240;1;240
+-9,142005028;38,70692805;333;Misericórdia;15892: Lg Corpo Santo (Ambos (->)(2->6): Cais do Sodré - R Arsenal);Lixos;CV0140;140;1;140
+-9,1420101;38,70728832;334;Misericórdia;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;CV0090;90;1;90
+-9,1420101;38,70728832;335;Misericórdia;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;CV0140;140;4;560
+-9,1420101;38,70728832;336;Misericórdia;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;CV0240;240;2;480
+-9,1420101;38,70728832;337;Misericórdia;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;CV0090;90;1;90
+-9,1420101;38,70728832;338;Misericórdia;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;CV0140;140;4;560
+-9,1420101;38,70728832;339;Misericórdia;15893: Lg Corpo Santo (Ambos (13->)(10->28): R Arsenal - Cc do Ferragial);Lixos;CV0240;240;2;480
+-9,14208135;38,70744985;342;Misericórdia;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Lixos;CV0240;240;1;240
+-9,14208135;38,70744985;343;Misericórdia;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Lixos;CV0140;140;2;280
+-9,14208135;38,70744985;344;Misericórdia;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Lixos;CV0240;240;1;240
+-9,14208135;38,70744985;340;Misericórdia;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Lixos;CV0140;140;2;280
+-9,14208135;38,70744985;341;Misericórdia;15894: Lg Corpo Santo (Ambos (15->23)(14->22): Cc do Ferragial - R Corpo Santo);Papel e Cartão;CV0240;240;1;240
+-9,149863686;38,70903075;345;Misericórdia;15896: Bc Francisco André (Ambos (3->)(->): R da Boavista - R da Boavista);Lixos;CV0140;140;1;140
+-9,14534815;38,7075837;346;Misericórdia;15897: Tv de São Paulo (Ambos (->)(->): Pc São Paulo - R Ribeira Nova);Lixos;CV0140;140;2;280
+-9,14534815;38,7075837;347;Misericórdia;15897: Tv de São Paulo (Ambos (->)(->): Pc São Paulo - R Ribeira Nova);Lixos;CV0240;240;1;240
+-9,14534815;38,7075837;348;Misericórdia;15897: Tv de São Paulo (Ambos (->)(->): Pc São Paulo - R Ribeira Nova);Lixos;CV0140;140;2;280
+-9,14534815;38,7075837;349;Misericórdia;15897: Tv de São Paulo (Ambos (->)(->): Pc São Paulo - R Ribeira Nova);Lixos;CV0240;240;1;240
+-9,14534815;38,7075837;350;Misericórdia;15897: Tv de São Paulo (Ambos (->)(->): Pc São Paulo - R Ribeira Nova);Papel e Cartão;CV0140;140;1;140
+-9,1443768;38,70636706;351;Misericórdia;15898: Av 24 de Julho (Impar (1->)(->): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0090;90;1;90
+-9,1443768;38,70636706;352;Misericórdia;15898: Av 24 de Julho (Impar (1->)(->): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0240;240;1;240
+-9,1443768;38,70636706;353;Misericórdia;15898: Av 24 de Julho (Impar (1->)(->): Pc Duque da Terceira - Tv dos Remolares);Lixos;CV0140;140;1;140
+-9,144734149;38,70643602;354;Misericórdia;15899: Av 24 de Julho (Par (->)(2->): Tv dos Remolares - Pc Ribeira Nova);Lixos;CV0140;140;1;140
+-9,14751691;38,714609;43;Misericórdia;19365: R O Século, 150;Papel e Cartão;CV0240;240;2;480
+-9,14751691;38,714609;42;Misericórdia;19365: R O Século, 150;Vidro;CV0240;240;1;240
+-9,14751691;38,714609;41;Misericórdia;19365: R O Século, 150;Embalagens;CV0240;240;2;480
+-9,14751691;38,714609;40;Misericórdia;19365: R O Século, 150;Lixos;CV0240;240;4;960
+-9,14751691;38,714609;39;Misericórdia;19365: R O Século, 150;Lixos;CV0240;240;4;960
+-9,151863405;38,71545391;133;Misericórdia;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Papel e Cartão;CV0240;240;1;240
+-9,151863405;38,71545391;134;Misericórdia;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Papel e Cartão;CV0240;240;1;240
+-9,151863405;38,71545391;135;Misericórdia;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Embalagens;CV0240;240;1;240
+-9,151863405;38,71545391;136;Misericórdia;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Lixos;CV0240;240;1;240
+-9,151863405;38,71545391;137;Misericórdia;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Lixos;CV0240;240;1;240
+-9,151863405;38,71545391;138;Misericórdia;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Vidro;CV0240;240;1;240
+-9,151863405;38,71545391;139;Misericórdia;19216: R Marcos Portugal, Muro do Lg Agostinho da Silva;Embalagens;CV0240;240;1;240
+-9,147549562;38,71123078;210;Misericórdia;19280: Tv André Valente, jt silo;Papel e Cartão;CV0240;240;3;720
+-9,147549562;38,71123078;209;Misericórdia;19280: Tv André Valente, jt silo;Lixos;CV0240;240;9;2160
+-9,147549562;38,71123078;208;Misericórdia;19280: Tv André Valente, jt silo;Embalagens;CV0240;240;2;480
+-9,147549562;38,71123078;211;Misericórdia;19280: Tv André Valente, jt silo;Lixos;CV0240;240;9;2160
+-9,147549562;38,71123078;207;Misericórdia;19280: Tv André Valente, jt silo;Vidro;CV0240;240;1;240
+-9,144224007;38,70694488;233;Misericórdia;19301: R Remolares, Crzt Tv Remolares;Vidro;VSP;1500;1;1500
+-9,144224007;38,70694488;234;Misericórdia;19301: R Remolares, Crzt Tv Remolares;Vidro;VSP;1500;1;1500
+-9,144407318;38,71015909;265;Misericórdia;19315: R Emenda, 100;Vidro;CV0140;140;1;140
+-9,144900544;38,71089346;231;Misericórdia;19300: R Salgadeiras, SFC CZT  R. da Atalaia;Lixos;CV0240;240;2;480
+-9,144900544;38,71089346;232;Misericórdia;19300: R Salgadeiras, SFC CZT  R. da Atalaia;Lixos;CV0240;240;2;480
+-9,143880634;38,70949707;66;Misericórdia;19407: Tv Guilherme Cossoul, 10;Papel e Cartão;CV0240;240;1;240
+-9,143880634;38,70949707;67;Misericórdia;19407: Tv Guilherme Cossoul, 10;Embalagens;CV0240;240;1;240
+-9,151388551;38,70873822;214;Misericórdia;19282: Lg Conde-Barão, 19;Papel e Cartão;CV0140;140;1;140
+-9,151388551;38,70873822;213;Misericórdia;19282: Lg Conde-Barão, 19;Embalagens;CV0140;140;1;140
+-9,153108561;38,71327215;180;Misericórdia;19257: R São Bento, 212;Vidro;CV0140;140;2;280
+-9,153108561;38,71327215;181;Misericórdia;19257: R São Bento, 212;Vidro;CV0140;140;2;280
+-9,153108561;38,71327215;182;Misericórdia;19257: R São Bento, 212;Vidro;CV0140;140;2;280
+-9,15311831;38,71637976;225;Misericórdia;19293: R Imprensa Nacional, 46;Vidro;CV0140;140;1;140
+-9,142260747;38,70794373;245;Misericórdia;19310: R Vitor Cordon, 43;Vidro;CV0240;240;1;240
+-9,144813491;38,70798468;267;Misericórdia;19319: R São Paulo, 108;Embalagens;CV0140;140;1;140
+-9,153608439;38,71446582;163;Misericórdia;19236: R São Bento, 318;Vidro;CV0140;140;1;140
+-9,153608439;38,71446582;164;Misericórdia;19236: R São Bento, 318;Organicos;CV0140;140;1;140
+-9,144603489;38,71428298;227;Misericórdia;19295: R Teixeira, 1;Vidro;CV0140;140;1;140
+-9,14464752;38,71088664;48;Misericórdia;19371: R Salgadeiras, SFC Jt 11;Lixos;CV0240;240;3;720
+-9,14464752;38,71088664;47;Misericórdia;19371: R Salgadeiras, SFC Jt 11;Lixos;CV0240;240;3;720
+-9,152425179;38,709684;121;Misericórdia;19390: R Poço dos Negros, crzt R São Bento;Lixos;CV0240;240;3;720
+-9,152425179;38,709684;122;Misericórdia;19390: R Poço dos Negros, crzt R São Bento;Lixos;CV0240;240;3;720
+-9,153055613;38,71197549;205;Misericórdia;19278: R Correia Garção, 3;Vidro;CV0240;240;1;240
+-9,153055613;38,71197549;206;Misericórdia;19278: R Correia Garção, 3;Organicos;CV0240;240;1;240
+-9,143011665;38,70738775;85;Misericórdia;19415: R São Paulo, 14 a 16;Embalagens;CV0140;140;1;140
+-9,143856881;38,70944323;290;Misericórdia;19337: Tv Guilherme Cossoul, 11;Vidro;CV0140;140;1;140
+-9,143856881;38,70944323;291;Misericórdia;19337: Tv Guilherme Cossoul, 11;Papel e Cartão;CV0140;140;1;140
+-9,143856881;38,70944323;292;Misericórdia;19337: Tv Guilherme Cossoul, 11;Embalagens;CV0140;140;1;140
+-9,15264388;38,71051081;692;Misericórdia;21843: R São Bento, 15;Organicos;CV0090;90;1;90
+-9,15264388;38,71051081;693;Misericórdia;21843: R São Bento, 15;Vidro;CV0090;90;1;90
+-9,151300393;38,71224303;694;Misericórdia;21844: R Cruz dos Poiais de São Bento, Crt R das Parreiras;Papel e Cartão;CV0240;240;1;240
+-9,151300393;38,71224303;695;Misericórdia;21844: R Cruz dos Poiais de São Bento, Crt R das Parreiras;Papel e Cartão;CV0240;240;1;240
+-9,151300393;38,71224303;696;Misericórdia;21844: R Cruz dos Poiais de São Bento, Crt R das Parreiras;Embalagens;CV0240;240;1;240
+-9,151300393;38,71224303;697;Misericórdia;21844: R Cruz dos Poiais de São Bento, Crt R das Parreiras;Lixos;CV0240;240;1;240
+-9,151300393;38,71224303;698;Misericórdia;21844: R Cruz dos Poiais de São Bento, Crt R das Parreiras;Vidro;CV0240;240;1;240
+-9,151300393;38,71224303;699;Misericórdia;21844: R Cruz dos Poiais de São Bento, Crt R das Parreiras;Embalagens;CV0240;240;1;240
+-9,151300393;38,71224303;700;Misericórdia;21844: R Cruz dos Poiais de São Bento, Crt R das Parreiras;Lixos;CV0240;240;1;240
+-9,147528628;38,70569115;938;Misericórdia;21957: R da Cintura do Porto de Lisboa, 3154 Armazém B;Embalagens;CV0240;240;2;480
+-9,147528628;38,70569115;939;Misericórdia;21957: R da Cintura do Porto de Lisboa, 3154 Armazém B;Lixos;CV0240;240;1;240
+-9,147528628;38,70569115;940;Misericórdia;21957: R da Cintura do Porto de Lisboa, 3154 Armazém B;Vidro;CV0240;240;1;240
+-9,15077561;38,70848234;944;Misericórdia;21959: R Instituto Industrial, 7-7D;Lixos;CV0240;240;1;240
+-9,15077561;38,70848234;945;Misericórdia;21959: R Instituto Industrial, 7-7D;Embalagens;CV0240;240;2;480
+-9,15077561;38,70848234;946;Misericórdia;21959: R Instituto Industrial, 7-7D;Vidro;CV0140;140;4;560
+-9,15077561;38,70848234;947;Misericórdia;21959: R Instituto Industrial, 7-7D;Organicos;CV0240;240;3;720
+-9,146054168;38,70791988;843;Misericórdia;21911: Tv Carvalho, frt nº 29;Papel e Cartão;ECIS3000;3000;2;6000
+-9,146054168;38,70791988;844;Misericórdia;21911: Tv Carvalho, frt nº 29;Embalagens;ECIS3000;3000;2;6000
+-9,146054168;38,70791988;845;Misericórdia;21911: Tv Carvalho, frt nº 29;Vidro;ECIS3000;3000;1;3000
+-9,146054168;38,70791988;846;Misericórdia;21911: Tv Carvalho, frt nº 29;Lixos;ECIS3000;3000;2;6000
+-9,149067977;38,70885752;921;Misericórdia;21952: R da Boavista, 88-94;Papel e Cartão;CV0090;90;1;90
+-9,149067977;38,70885752;922;Misericórdia;21952: R da Boavista, 88-94;Organicos;CV0090;90;1;90
+-9,149067977;38,70885752;923;Misericórdia;21952: R da Boavista, 88-94;Vidro;CV0140;140;1;140
+-9,149067977;38,70885752;924;Misericórdia;21952: R da Boavista, 88-94;Embalagens;CV0090;90;1;90
+-9,15158074;38,70770064;965;Misericórdia;21969: R Dom Luís I, 34;Papel e Cartão;CV0240;240;1;240
+-9,15158074;38,70770064;966;Misericórdia;21969: R Dom Luís I, 34;Embalagens;CV0090;90;1;90
+-9,144441604;38,70933007;715;Misericórdia;21854: R Emenda, 41-43-45-47;Papel e Cartão;CV0140;140;1;140
+-9,144441604;38,70933007;716;Misericórdia;21854: R Emenda, 41-43-45-47;Vidro;CV0240;240;1;240
+-9,144441604;38,70933007;717;Misericórdia;21854: R Emenda, 41-43-45-47;Embalagens;CV0140;140;1;140
+-9,144083429;38,71164819;897;Misericórdia;21938: R Diário de Notícias, 40-A;Organicos;CV0240;240;1;240
+-9,143292489;38,70773663;951;Misericórdia;21961: R do Alecrim, 24;Embalagens;CV0090;90;1;90
+-9,147315299;38,71173725;736;Misericórdia;21866: R O Século, 12;Papel e Cartão;CV0090;90;1;90
+-9,147315299;38,71173725;737;Misericórdia;21866: R O Século, 12;Organicos;CV0090;90;1;90
+-9,147315299;38,71173725;738;Misericórdia;21866: R O Século, 12;Vidro;CV0090;90;1;90
+-9,147315299;38,71173725;739;Misericórdia;21866: R O Século, 12;Embalagens;CV0090;90;1;90
+-9,147315299;38,71173725;740;Misericórdia;21866: R O Século, 12;Lixos;CV0090;90;1;90
+-9,147315299;38,71173725;741;Misericórdia;21866: R O Século, 12;Lixos;CV0090;90;1;90
+-9,146424706;38,71054695;959;Misericórdia;21966: R Marechal Saldanha, 26-26/A;Lixos;CV0140;140;3;420
+-9,146424706;38,71054695;960;Misericórdia;21966: R Marechal Saldanha, 26-26/A;Lixos;CV0140;140;3;420
+-9,146424706;38,71054695;961;Misericórdia;21966: R Marechal Saldanha, 26-26/A;Organicos;CV0140;140;1;140
+-9,146424706;38,71054695;962;Misericórdia;21966: R Marechal Saldanha, 26-26/A;Vidro;CV0140;140;1;140
+-9,144977831;38,71066759;963;Misericórdia;21967: R Loreto, 57-59;Organicos;CV0140;140;1;140
+-9,143233746;38,70764706;906;Misericórdia;21944: R Ferragial, 33-B;Vidro;CV0240;240;1;240
+-9,143233746;38,70764706;907;Misericórdia;21944: R Ferragial, 33-B;Organicos;CV0240;240;1;240
+-9,148416742;38,70752102;880;Misericórdia;21932: R Dom Luís I, 7-9;Embalagens;CV0240;240;1;240
+-9,148416742;38,70752102;881;Misericórdia;21932: R Dom Luís I, 7-9;Papel e Cartão;CV0240;240;1;240
+-9,146202328;38,70782851;789;Misericórdia;21889: Tv Carvalho, 27-27/A;Vidro;CV0090;90;1;90
+-9,146202328;38,70782851;790;Misericórdia;21889: Tv Carvalho, 27-27/A;Vidro;CV0090;90;1;90
+-9,142597828;38,70902175;869;Misericórdia;21925: R António Maria Cardoso, 31/33/35;Papel e Cartão;CV0090;90;1;90
+-9,142597828;38,70902175;870;Misericórdia;21925: R António Maria Cardoso, 31/33/35;Lixos;CV0140;140;1;140
+-9,142597828;38,70902175;871;Misericórdia;21925: R António Maria Cardoso, 31/33/35;Lixos;CV0140;140;1;140
+-9,145845743;38,71025471;874;Misericórdia;21927: Tv Sequeiro, Jt 8;Lixos;CV0240;240;5;1200
+-9,145845743;38,71025471;875;Misericórdia;21927: Tv Sequeiro, Jt 8;Lixos;CV0240;240;5;1200
+-9,144084572;38,71172925;898;Misericórdia;21939: R Diário de Notícias, 40-B;Organicos;CV0240;240;1;240
+-9,152256635;38,71400022;912;Misericórdia;21949: R Quintinha, 70-B;Organicos;CV0140;140;1;140
+-9,152256635;38,71400022;913;Misericórdia;21949: R Quintinha, 70-B;Vidro;CV0140;140;1;140
