@@ -1,4 +1,4 @@
-### :bar_chart:	 Databases
+### Databases
 
 :mag:	 In this project ... put fitting text here... just an example
 
