@@ -7,7 +7,7 @@
 
 ### :wavy_dash: THIRD YEAR :wavy_dash:      2020 / 2021 EDITION
 
-#### First Semester 
+### First Semester 
 [ **18/20** ] - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
 
 [ **15/20** ] - [Software Systems Development](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/DSS)
