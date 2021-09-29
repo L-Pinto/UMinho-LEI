@@ -2,17 +2,17 @@
 
 # UMinho-LEI
 :small_orange_diamond: Projects developed during my Software Engineering Bachelor's Degree.
-:man_student:
+
 ***
 
 ### :wavy_dash: THIRD YEAR :wavy_dash:      2020 / 2021 EDITION
 
 ### First Semester 
-[ **18/20** ] - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
+:star: [ **18/20** ] - [Databases](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/BD)
 
-[ **15/20** ] - [Software Systems Development](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/DSS)
+:star: [ **15/20** ] - [Software Systems Development](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/DSS)
 
-[ **20/20 , 15/20 , 20/20** ] - [Deterministic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MDIO)
+:star: [ **20/20 , 15/20 , 20/20** ] - [Deterministic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MDIO)
 
 [ **16/20** ] - [Distributed Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SD)
 
