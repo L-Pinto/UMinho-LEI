@@ -1,4 +1,6 @@
-### Databases
+### :bar_chart:	 Databases
+
+:pushpin: Final Grade :
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
