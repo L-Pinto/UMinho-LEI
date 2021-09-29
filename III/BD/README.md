@@ -1,6 +1,6 @@
 ### Databases
 
-:mag:	 In this project ... put fitting text here... just an example
+:bulb:	 In this project ... put fitting text here... just an example
 
 :pushpin: Final Grade : 18
 
