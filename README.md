@@ -5,7 +5,7 @@ Projects developed during my Software Engineering Bachelor's Degree
 ### :wavy_dash: FIRST YEAR :wavy_dash:
 
 #### 1st Semester 
-**14** - [Software Labs I]()
+**18** - [Software Labs I]()
 
 #### 2nd Semester 
 **16** - [Software Labs II]()
@@ -17,7 +17,7 @@ Projects developed during my Software Engineering Bachelor's Degree
 #### 2nd Semester 
 **17, 18** - [Software Labs III]()
 
-**13** - [Programming Calculus]()
+**13** - [Program Calculation](https://github.com/L-Pinto/UMinho-LEI/tree/main/II/CP)
 
 **13** - [Operative Systems]()
 
@@ -32,7 +32,7 @@ Projects developed during my Software Engineering Bachelor's Degree
 
 **15** - [Software Systems Development]()
 
-**20, 15, 20** - [Modelos Deterministicos de Investigação Operacional]()
+**20, 15, 20** - [Deterministic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MDIO)
 
 **16** - [Distributed Systems]()
 
@@ -43,11 +43,11 @@ Projects developed during my Software Engineering Bachelor's Degree
 #### 2nd Semester 
 **16** - [Software Labs IV]()
 
-**18, 18** - [Sistema de Representação de Conhecimento e Raciocínio]()
+**18, 18** - [Knowledge and Reasoning Representation Systems](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/SRCR)
 
 **18** - [Computer Graphics]()
 
-**18** - [Modelos Estocásticos de Investigação Operacional]()
+**18** - [Stochastic Operational Research Models](https://github.com/L-Pinto/UMinho-LEI/tree/main/III/MEIO)
 
 **19, 16** - [Language Processing]()
 
