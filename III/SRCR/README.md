@@ -1,9 +1,10 @@
-### Knowledge and Reasoning Representation Systems
+### :pushpin: Knowledge and Reasoning Representation Systems
 
-  - Individual Project: 18
-  - Group Project: 18
+***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc... 
 
-  Both projects were developed in Prolog.
+***Final Grade*** : 
+  - First Project  : 18
+  - Second Project : 18
 
 #### :handshake: Contributors - Group Project 
 - [Luís Pinto](https://github.com/L-Pinto)
