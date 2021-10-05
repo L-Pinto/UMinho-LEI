@@ -1,4 +1,9 @@
-### Stochastic Operational Research Models
+### :pushpin: Stochastic Operational Research Models
+
+***About*** : 
+
+***Final Grade*** : 18
+
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
