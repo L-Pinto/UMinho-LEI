@@ -1,4 +1,8 @@
-### Computer Communications
+### :pushpin: Computer Communications
+
+***About*** : 
+
+***Final Grade*** : 17
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
