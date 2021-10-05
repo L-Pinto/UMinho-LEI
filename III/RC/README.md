@@ -1,4 +1,8 @@
-### Computer Networks
+### :pushpin: Computer Networks 
+
+***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
+
+***Final Grade*** : 17
 
 #### :handshake: Contributors - TP1
 - [Luís Pinto](https://github.com/L-Pinto)
