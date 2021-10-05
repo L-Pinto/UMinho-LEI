@@ -1,4 +1,11 @@
-### Deterministic Operational Research Models
+### :pushpin: Deterministic Operational Research Models
+
+***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
+
+***Final Grade*** : 
+  - First Project  : 20
+  - Second Project : 15
+  - Third Project  : 20
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
