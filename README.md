@@ -1,7 +1,7 @@
 ![alt text](https://github.com/L-Pinto/UMinho-LEI/blob/main/UM_logo.jpg)
 
 # Software Engineering Bachelor's @ [University of Minho](https://www.uminho.pt/EN/)
-   :large_red_diamond: :large_orange_diamond: Projects developed during my Software Engineering Bachelor's Degree and their respective grades out of 20.
+   :large_orange_diamond: Projects developed during my Software Engineering Bachelor's Degree and their respective grades out of 20.
 
 ***
 
