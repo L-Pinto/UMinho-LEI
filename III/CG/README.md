@@ -1,7 +1,7 @@
 
 ### :pushpin: Computer Graphics
 
-***About*** : During these 3 project phases we developed an animated Solar System using C++.
+***About*** : During these 4 project phases we developed an animated Solar System using C++.
 
 ***Final Grade*** : 18 / 20
 
