@@ -1,8 +1,8 @@
 ### :pushpin: Program Calculation
 
-***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
+***About*** : In this project we could put into practise various concepts about functional programming and formal methods. The project was developed in haskell.
 
-***Final Grade*** : 13
+***Final Grade*** : 13 / 20
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
