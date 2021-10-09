@@ -1,9 +1,9 @@
 
 ### :pushpin: Computer Graphics
 
-***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc... 
+***About*** : During these 3 project phases we developed an animated Solar System using C++.
 
-***Final Grade*** : 18
+***Final Grade*** : 18 / 20
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
