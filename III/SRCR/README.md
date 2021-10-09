@@ -1,10 +1,12 @@
 ### :pushpin: Knowledge and Reasoning Representation Systems
 
-***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc... 
+***About*** : Both projects were developed in prolog using logic programming.
+  - The group project consisted in developing a program that implements several features that allows the user to access information about Covid-19 vaccination in Portugal.
+  - The individual project consisted in implementing search algorithms to determine the several paths that a garbage truck needs to travel to collect all the garbage in Lisbon, in addition it includes specific information about the path, such as : kilometers traveled, types of garbage collected, kilograms of garbage collected .... among other features.
 
 ***Final Grade*** : 
-  - First Project  : 18
-  - Second Project : 18
+  - Group Project  : 18 / 20
+  - Individual Project : 18 / 20
 
 #### :handshake: Contributors - Group Project 
 - [Luís Pinto](https://github.com/L-Pinto)
