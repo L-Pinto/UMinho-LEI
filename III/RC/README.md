@@ -6,7 +6,7 @@
   - The third project consisted in putting into practice the concepts of Ethernet and ARP Protocol.
   - The fouth and last project consisted in putting into practice the concepts of wireless and celluar networks.
 
-***Final Grade*** : 17
+***Final Grade*** : 17 / 20
 
 #### :handshake: Contributors - TP1
 - [Luís Pinto](https://github.com/L-Pinto)
