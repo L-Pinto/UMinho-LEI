@@ -1,6 +1,6 @@
 ### :pushpin: Distributed Systems
 
-***About*** : Developed a program similar to the app [Stayway Covid](https://stayawaycovid.pt/landing-page/) using Java.  
+***About*** : Developed "CovidAlarm" a project similar to the app [Stayway Covid](https://stayawaycovid.pt/landing-page/) using Java and fundamental principles of distributed systems.  
 
 ***Final Grade*** : 16 / 20
 
