@@ -1,6 +1,6 @@
 ### :pushpin: Software Development Systems 
 
-***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
+***About*** : In this project we developed the stock management system component of a factory warehouse. During the first and second phases, specifically, Requirements Analysis and Conceptual Modeling of the Solution, we used Visual Paradigm for UML design of diagrams and models. Consequently, in the third phase, occurred the Implementation of the solution following object-oriented technologies using Java. The architectural design followed a multilayer structure (MVC).
 
 ***Final Grade*** : 15
 
