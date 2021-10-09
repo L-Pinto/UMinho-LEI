@@ -2,13 +2,11 @@
 
 ***About*** : These projects consisted in resolving several problems using fundamental principles of operation research.
 
-- The first project consisted in solving a problem where we needed to determine the shortest path for a drone to travel by using the concept of eulerian graph and circuit.  
+- The first project consisted in finding the shortest path for a drone to travel by using the concept of eulerian circuit and graph.  
 
-- The second project consisted in solving a problem where we needed to carefully remove blocks from a mine by using the concept of maximum-weight or minimum-weight closure in a graph.  
+- The second project consisted in removing the ideal amount of blocks to from a mine (considering its cost and profit) by using the concept of maximum-weight or minimum-weight closure in a graph.  
 
-- The third and last project consisted in planning the execution of a project through reducing the time of some activities by using the concept of mixed-integer programming and Gantt diagram. 
-
-tools used, etc...
+- The third project consisted in planning efficiently the execution of a project through reducing the time of some activities by using the concept of mixed-integer programming and Gantt diagram. 
 
 ***Final Grade*** : 
   - First Project  : 20 / 20
