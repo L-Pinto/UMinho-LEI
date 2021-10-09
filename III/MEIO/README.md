@@ -1,8 +1,8 @@
 ### :pushpin: Stochastic Operational Research Models
 
-***About*** : 
+***About*** : In this project we used analyzed and studied different stochastic operational research models politics in order to provide the best course of action for the storage facility company "Cafés&Afins". We used an Excel Sheet to manage the performance of diferent stratagies according to multiple inventory simulations.
 
-***Final Grade*** : 18
+***Final Grade*** : 18 / 20
 
 
 #### :handshake: Contributors 
