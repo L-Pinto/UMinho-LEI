@@ -1,7 +1,7 @@
 ### :pushpin: Computer Networks 
 
 ***About*** : In the scope of computer networking, we developed 4 projects with different themes :
-  - The fisrt project consisted in writting an essay about .
+  - The fisrt project consisted in writting an essay about : Mobile Networks - from 4G to 5G.
   - The second project consisted in putting into practice the concepts of IPv4.
   - The third project consisted in putting into practice the concepts of Ethernet and ARP Protocol.
   - The fouth and last project consisted in putting into practice the concepts of wireless and celluar networks.
