@@ -2,7 +2,7 @@
 
 ***About*** : Developed a program similar to the app [Stayway Covid](https://stayawaycovid.pt/landing-page/) using Java.  
 
-***Final Grade*** : 16
+***Final Grade*** : 16 / 20
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
