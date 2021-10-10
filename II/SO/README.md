@@ -1,8 +1,13 @@
 ### :pushpin: Operating Systems
 
-***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
+***About*** : This projected was based on the control and monitorization of communication and processes, using for that purpose fundamental principles of operating systems. 
 
-***Final Grade*** : 13
+This project was developed in C.
+
+
+
+
+***Final Grade*** : 13 / 20
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
