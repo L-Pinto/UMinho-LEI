@@ -1,8 +1,10 @@
 ### :pushpin: Software Labs II
 
-***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
+***About*** : This project consisted in creating the game Reversi also known as Othello. The game was developed in C. 
 
-***Final Grade*** : 16
+For more instructions about the game you can [click here](https://www.mastersofgames.com/rules/reversi-othello-rules.htm).
+
+***Final Grade*** : 16 / 20
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
