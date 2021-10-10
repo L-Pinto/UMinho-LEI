@@ -1,8 +1,8 @@
 ### :pushpin: Object Oriented Programming
 
-***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
+***About*** : The "Traz Aqui" project consisted in developing an app capable of managing food delivery during a pandemic situation, similiar to the app [Glovo](https://glovoapp.com/). This project was built in Java and following a MVC architecture.
 
-***Final Grade*** : 15
+***Final Grade*** : 15 / 20
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
