@@ -1,6 +1,6 @@
 ### :pushpin: Software Labs III
 
-***About*** : In this project ... put fitting text here... just an example : Name of project, tools used, etc...
+***About*** : In both projects the main goal was to carry out interactive consultations on information related to the basic management of a distribution chain. We learned about large-scale programming, that is, applications with *large volumes of data* and with *higher algorithmic and structural complexity*.
 
 ***Final Grade*** : 
   - C Project  : 17 / 20
