@@ -6,4 +6,4 @@
 
 #### :handshake: Contributors 
 - [Luís Pinto](https://github.com/L-Pinto)
-- [Rafael Inácio Lourenço]
+- [Rafael Inácio Lourenço](https://github.com/rafael4512)
